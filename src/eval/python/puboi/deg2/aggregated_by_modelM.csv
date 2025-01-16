@@ -1,0 +1,3 @@
+Model,Mean,Median,StandardDeviation,InterquartileRange
+MLP,3352.1051,363.3808,4614.46,9505.9144
+RF,2394.786,243.9803,3560.2931,4996.7454
