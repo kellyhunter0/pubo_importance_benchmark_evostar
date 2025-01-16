@@ -11,8 +11,9 @@ This benchmark is a set of instances from the problem: Polynomial Unconstrained 
 
 
 # Into the Black Box: Mining Variable Importance with XAI - 2025
+Authors: Kelly Hunter, Sarah L. Thomson, Emma Hart
 
-The present work utilises the PUBOi benchmark to conduct experiments to uncover if XAI can learn ground truth importances in important variables when we know these ahead of time. We conduct this in two setups: ENUM and SAMPlE where we compare learning algorithms, XAI methods and sample sizes used to train the models to better understand which techniques are promising in this context. 
+This work is in association with paper submitted to EvoStar 2025's special joint track by EvoAPPS and EuroGP on Evolutionary Machine Learning on 15/11/24 and accepted on 10/01/25. The present work utilises the PUBOi benchmark to conduct experiments to uncover if XAI can learn ground truth importances in important variables when we know these ahead of time. We conduct this in two setups: ENUM and SAMPlE where we compare learning algorithms, XAI methods and sample sizes used to train the models to better understand which techniques are promising in this context. 
 
 # Full data and instances used for the SAMPLE and ENUM experiment
 - This can be found at a [Zenodo Repository](https://zenodo.org/records/14664843)
