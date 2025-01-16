@@ -1,0 +1,5 @@
+2024-11-15 20:37:08,886 - INFO - Selected instances to process: [1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1027, 1028, 1029, 1030]
+2024-11-15 20:37:08,886 - INFO - Processing Degree: deg2, Instance: 1015
+2024-11-15 20:37:08,899 - INFO - Loaded data for Instance 1015 from puboi/model_data\puboi_deg2_1015.csv.
+2024-11-15 20:37:08,902 - INFO - Loaded ground truth importances for Instance 1015.
+2024-11-15 20:37:08,902 - INFO - Instance 1015: Starting Random Forest training.

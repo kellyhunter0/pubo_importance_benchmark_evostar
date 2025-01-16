@@ -1,0 +1,189 @@
+2024-11-14 13:02:48,180 - INFO - Selected instances to process: [1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1027, 1028, 1029, 1030]
+2024-11-14 13:02:48,181 - INFO - Processing Degree: deg2, Instance: 1000
+2024-11-14 13:02:48,194 - INFO - Loaded data for Instance 1000 from puboi/model_data\puboi_deg2_1000.csv.
+2024-11-14 13:02:48,196 - INFO - Loaded ground truth importances for Instance 1000.
+2024-11-14 13:02:48,197 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-14 13:02:48,199 - INFO - 
+Computing Random Forest models...
+2024-11-14 13:02:48,469 - INFO - 
+RF R2 score for fold 1: 0.9988129
+2024-11-14 13:05:52,338 - INFO - Fold 1 - LIME Explainer initialized.
+2024-11-14 13:08:00,524 - INFO - Fold 1 - LIME importances computed: [[ 0.38286083  0.28755667  0.58495658 ... -0.31841381 -0.01123202
+  -0.08507381]
+ [ 0.47453142  0.23882114  0.9783513  ...  0.15023075 -0.11041573
+   0.11784835]
+ [ 0.48982875  0.26947457  0.63755252 ...  0.14045553 -0.0914478
+  -0.08103858]
+ ...
+ [-0.43419596 -0.04428954 -0.63615593 ...  0.12280754  0.04254443
+  -0.21844104]
+ [-0.24546486 -0.04473089 -0.82628625 ...  0.06077357  0.04574122
+  -0.16658524]
+ [-0.44457369 -0.31772549 -0.60457678 ...  0.03818344  0.17761776
+   0.02027179]]
+2024-11-14 13:08:00,528 - INFO - Fold 1 - Computing permutation importance...
+2024-11-14 13:08:03,975 - INFO - Fold 1 - PFI importances computed.
+2024-11-14 13:08:05,025 - INFO - SHAP summary for 1, instance number 1000
+2024-11-14 13:08:05,035 - INFO - SHAP ground truth metrics computing...
+
+2024-11-14 13:08:05,036 - INFO - {'value': '0.78446', 'error': '0.00089'}
+2024-11-14 13:08:05,037 - INFO - {'value': '0.66299', 'error': '0.00468'}
+2024-11-14 13:08:05,038 - INFO - 0.8
+2024-11-14 13:08:05,039 - INFO - PFI ground truth metrics computing...
+2024-11-14 13:08:05,040 - INFO - {'value': '0.78446', 'error': '0.00089'}
+2024-11-14 13:08:05,041 - INFO - {'value': '0.66299', 'error': '0.00468'}
+2024-11-14 13:08:05,043 - INFO - 0.8
+2024-11-14 13:08:05,043 - INFO - LIME ground truth metrics computing...
+2024-11-14 13:08:05,044 - INFO - {'value': '0.78446', 'error': '0.00089'}
+2024-11-14 13:08:05,045 - INFO - {'value': '0.66299', 'error': '0.00468'}
+2024-11-14 13:08:05,048 - INFO - 0.8
+2024-11-14 13:08:05,305 - INFO - 
+RF R2 score for fold 2: 0.9994063
+2024-11-14 13:10:59,319 - INFO - Fold 2 - LIME Explainer initialized.
+2024-11-14 13:13:06,447 - INFO - Fold 2 - LIME importances computed: [[ 2.06247824e-01  2.64800965e-01  6.93900774e-01 ... -3.22612662e-03
+   1.15291898e-01  1.26768837e-01]
+ [ 2.67749594e-01  2.84564590e-01  5.21705918e-01 ... -1.36999090e-01
+   6.28344343e-02  1.01842456e-02]
+ [ 5.17274005e-01  2.69475847e-01  6.68084702e-01 ...  1.00701736e-01
+   6.51248831e-04 -7.43631087e-02]
+ ...
+ [-5.96797727e-01 -2.55620427e-01 -5.62065496e-01 ...  4.29445310e-02
+   1.15620605e-01  1.12401997e-01]
+ [-3.60505773e-01 -2.36100016e-01 -6.12681916e-01 ...  1.32129055e-01
+  -2.20690762e-01  8.45822179e-02]
+ [-4.94667548e-01 -3.21576848e-01 -7.31852767e-01 ...  4.65132485e-03
+  -2.31004934e-02  3.34301712e-02]]
+2024-11-14 13:13:06,450 - INFO - Fold 2 - Computing permutation importance...
+2024-11-14 13:13:09,970 - INFO - Fold 2 - PFI importances computed.
+2024-11-14 13:13:10,978 - INFO - SHAP summary for 2, instance number 1000
+2024-11-14 13:13:10,987 - INFO - SHAP ground truth metrics computing...
+
+2024-11-14 13:13:10,988 - INFO - {'value': '0.78446', 'error': '0.00089'}
+2024-11-14 13:13:10,989 - INFO - {'value': '0.66299', 'error': '0.00468'}
+2024-11-14 13:13:10,991 - INFO - 1.0
+2024-11-14 13:13:10,991 - INFO - PFI ground truth metrics computing...
+2024-11-14 13:13:10,992 - INFO - {'value': '0.78446', 'error': '0.00089'}
+2024-11-14 13:13:10,993 - INFO - {'value': '0.66299', 'error': '0.00468'}
+2024-11-14 13:13:10,994 - INFO - 0.8
+2024-11-14 13:13:10,994 - INFO - LIME ground truth metrics computing...
+2024-11-14 13:13:10,996 - INFO - {'value': '0.78446', 'error': '0.00089'}
+2024-11-14 13:13:10,997 - INFO - {'value': '0.66299', 'error': '0.00468'}
+2024-11-14 13:13:10,998 - INFO - 0.8
+2024-11-14 13:13:11,247 - INFO - 
+RF R2 score for fold 3: 0.9996903
+2024-11-14 13:15:59,377 - INFO - Fold 3 - LIME Explainer initialized.
+2024-11-14 13:17:59,057 - INFO - Fold 3 - LIME importances computed: [[ 0.24792287  0.33466926  0.69462032 ... -0.06797228  0.09148783
+   0.0039155 ]
+ [ 0.37391811  0.30045711  0.506888   ... -0.125513    0.05585967
+  -0.0397312 ]
+ [ 0.63754686  0.3082815   0.66852324 ...  0.10891613  0.01283755
+  -0.04080143]
+ ...
+ [-0.51234884 -0.28525162 -0.53126143 ...  0.08678524  0.11780563
+   0.10734105]
+ [-0.28224517 -0.15494877 -0.57100429 ...  0.18486681 -0.19373822
+   0.13584926]
+ [-0.38728781 -0.24958763 -0.72403915 ...  0.01484879 -0.00653255
+   0.05876598]]
+2024-11-14 13:17:59,060 - INFO - Fold 3 - Computing permutation importance...
+2024-11-14 13:18:00,006 - INFO - Fold 3 - PFI importances computed.
+2024-11-14 13:18:00,952 - INFO - SHAP summary for 3, instance number 1000
+2024-11-14 13:18:00,961 - INFO - SHAP ground truth metrics computing...
+
+2024-11-14 13:18:00,962 - INFO - {'value': '0.78446', 'error': '0.00089'}
+2024-11-14 13:18:00,963 - INFO - {'value': '0.66299', 'error': '0.00468'}
+2024-11-14 13:18:00,965 - INFO - 0.8
+2024-11-14 13:18:00,965 - INFO - PFI ground truth metrics computing...
+2024-11-14 13:18:00,966 - INFO - {'value': '0.78446', 'error': '0.00089'}
+2024-11-14 13:18:00,968 - INFO - {'value': '0.66299', 'error': '0.00468'}
+2024-11-14 13:18:00,969 - INFO - 0.8
+2024-11-14 13:18:00,969 - INFO - LIME ground truth metrics computing...
+2024-11-14 13:18:00,970 - INFO - {'value': '0.78446', 'error': '0.00089'}
+2024-11-14 13:18:00,971 - INFO - {'value': '0.66299', 'error': '0.00468'}
+2024-11-14 13:18:00,972 - INFO - 0.8
+2024-11-14 13:18:00,973 - INFO - Average Cross-Validation R2 Random Forest: 0.9993031719390943
+2024-11-14 13:18:00,999 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-14 13:18:00,999 - INFO - Instance 1000: Starting MLP training.
+2024-11-14 13:18:01,001 - INFO - 
+Computing MLP Regressor models...
+2024-11-14 13:18:02,173 - INFO - 
+MLP R2 score for fold 1: 0.9999333
+2024-11-14 13:18:02,175 - INFO - Fold 1 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-14 13:19:04,087 - INFO - Fold 1 - LIME Explainer initialised.
+2024-11-14 13:20:04,097 - INFO - Fold 1 - LIME importances computed
+2024-11-14 13:20:04,098 - INFO - Fold 1 - Computing permutation importance...
+2024-11-14 13:20:04,343 - INFO - Fold 1 - PFI importances computed.
+2024-11-14 13:20:05,292 - INFO - SHAP summary for 1, instance number 1000
+2024-11-14 13:20:05,301 - INFO - SHAP ground truth metrics computing...
+
+2024-11-14 13:20:05,302 - INFO - {'value': '0.78446', 'error': '0.00089'}
+2024-11-14 13:20:05,303 - INFO - {'value': '0.66299', 'error': '0.00468'}
+2024-11-14 13:20:05,304 - INFO - 0.8
+2024-11-14 13:20:05,305 - INFO - PFI ground truth metrics computing...
+2024-11-14 13:20:05,306 - INFO - {'value': '0.78446', 'error': '0.00089'}
+2024-11-14 13:20:05,306 - INFO - {'value': '0.66299', 'error': '0.00468'}
+2024-11-14 13:20:05,308 - INFO - 0.8
+2024-11-14 13:20:05,308 - INFO - LIME ground truth metrics computing...
+2024-11-14 13:20:05,310 - INFO - {'value': '0.78446', 'error': '0.00089'}
+2024-11-14 13:20:05,311 - INFO - {'value': '0.66299', 'error': '0.00468'}
+2024-11-14 13:20:05,312 - INFO - 0.8
+2024-11-14 13:20:06,298 - INFO - 
+MLP R2 score for fold 2: 0.9999254
+2024-11-14 13:20:06,301 - INFO - Fold 2 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-14 13:21:08,086 - INFO - Fold 2 - LIME Explainer initialised.
+2024-11-14 13:22:09,203 - INFO - Fold 2 - LIME importances computed
+2024-11-14 13:22:09,204 - INFO - Fold 2 - Computing permutation importance...
+2024-11-14 13:22:09,393 - INFO - Fold 2 - PFI importances computed.
+2024-11-14 13:22:10,313 - INFO - SHAP summary for 2, instance number 1000
+2024-11-14 13:22:10,322 - INFO - SHAP ground truth metrics computing...
+
+2024-11-14 13:22:10,323 - INFO - {'value': '0.78446', 'error': '0.00089'}
+2024-11-14 13:22:10,323 - INFO - {'value': '0.66299', 'error': '0.00468'}
+2024-11-14 13:22:10,325 - INFO - 0.8
+2024-11-14 13:22:10,325 - INFO - PFI ground truth metrics computing...
+2024-11-14 13:22:10,326 - INFO - {'value': '0.78446', 'error': '0.00089'}
+2024-11-14 13:22:10,327 - INFO - {'value': '0.66299', 'error': '0.00468'}
+2024-11-14 13:22:10,328 - INFO - 0.8
+2024-11-14 13:22:10,329 - INFO - LIME ground truth metrics computing...
+2024-11-14 13:22:10,329 - INFO - {'value': '0.78446', 'error': '0.00089'}
+2024-11-14 13:22:10,330 - INFO - {'value': '0.66299', 'error': '0.00468'}
+2024-11-14 13:22:10,331 - INFO - 0.8
+2024-11-14 13:22:11,350 - INFO - 
+MLP R2 score for fold 3: 0.9999257
+2024-11-14 13:22:11,352 - INFO - Fold 3 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-14 13:23:13,704 - INFO - Fold 3 - LIME Explainer initialised.
+2024-11-14 13:24:15,960 - INFO - Fold 3 - LIME importances computed
+2024-11-14 13:24:15,960 - INFO - Fold 3 - Computing permutation importance...
+2024-11-14 13:24:16,838 - INFO - Fold 3 - PFI importances computed.
+2024-11-14 13:24:17,769 - INFO - SHAP summary for 3, instance number 1000
+2024-11-14 13:24:17,777 - INFO - SHAP ground truth metrics computing...
+
+2024-11-14 13:24:17,779 - INFO - {'value': '0.78446', 'error': '0.00089'}
+2024-11-14 13:24:17,779 - INFO - {'value': '0.66299', 'error': '0.00468'}
+2024-11-14 13:24:17,781 - INFO - 0.8
+2024-11-14 13:24:17,781 - INFO - PFI ground truth metrics computing...
+2024-11-14 13:24:17,782 - INFO - {'value': '0.78446', 'error': '0.00089'}
+2024-11-14 13:24:17,783 - INFO - {'value': '0.66299', 'error': '0.00468'}
+2024-11-14 13:24:17,784 - INFO - 0.8
+2024-11-14 13:24:17,784 - INFO - LIME ground truth metrics computing...
+2024-11-14 13:24:17,785 - INFO - {'value': '0.78446', 'error': '0.00089'}
+2024-11-14 13:24:17,786 - INFO - {'value': '0.66299', 'error': '0.00468'}
+2024-11-14 13:24:17,787 - INFO - 0.8
+2024-11-14 13:24:17,788 - INFO - Average Cross-Validation R2 Multi Layer Perceptron: 0.9999281393995276
+2024-11-14 13:24:17,813 - INFO - Instance 1000: Completed MLP training.
+2024-11-14 13:24:17,813 - INFO - Aggregating explanations for Instance: 1000
+2024-11-14 13:24:18,703 - INFO - Heatmap 'Model Performance with SHAP for deg2 - Instance 1000' saved to 'puboi\deg2\1000\heatmap\shap-median.png'
+2024-11-14 13:24:18,703 - INFO - Instance 1000: SHAP heatmap saved to puboi\deg2\1000\heatmap\shap-median.png.
+2024-11-14 13:24:19,584 - INFO - Heatmap 'Model Performance with PFI for deg2 - Instance 1000' saved to 'puboi\deg2\1000\heatmap\pfi-median.png'
+2024-11-14 13:24:19,584 - INFO - Instance 1000: PFI heatmap saved to puboi\deg2\1000\heatmap\pfi-median.png.
+2024-11-14 13:24:20,594 - INFO - Heatmap 'Model Performance with LIME for deg2 - Instance 1000' saved to 'puboi\deg2\1000\heatmap\lime-median.png'
+2024-11-14 13:24:20,595 - INFO - Instance 1000: LIME heatmap saved to puboi\deg2\1000\heatmap\lime-median.png.

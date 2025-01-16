@@ -1,0 +1,5 @@
+2024-11-14 15:43:03,752 - INFO - Selected instances to process: [1000, 1001, 1002, 1003, 1004, 1005, 1006]
+2024-11-14 15:43:03,752 - INFO - Processing Degree: deg2, Instance: 1000
+2024-11-14 15:43:03,765 - INFO - Loaded data for Instance 1000 from puboi/model_data\puboi_deg2_1000.csv.
+2024-11-14 15:43:03,768 - INFO - Loaded ground truth importances for Instance 1000.
+2024-11-14 15:43:03,769 - INFO - Instance 1000: Starting Random Forest training.

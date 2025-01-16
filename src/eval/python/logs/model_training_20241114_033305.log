@@ -1,0 +1,65 @@
+2024-11-14 03:33:05,912 - INFO - Selected instances to process: [1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1027, 1028, 1029, 1030]
+2024-11-14 03:33:05,912 - INFO - Processing Degree: deg2, Instance: 1000
+2024-11-14 03:33:05,913 - ERROR - File old/model_data\puboi_deg2_1000.csv does not exist. Skipping Instance: 1000.
+2024-11-14 03:33:05,913 - INFO - Processing Degree: deg2, Instance: 1001
+2024-11-14 03:33:05,913 - ERROR - File old/model_data\puboi_deg2_1001.csv does not exist. Skipping Instance: 1001.
+2024-11-14 03:33:05,914 - INFO - Processing Degree: deg2, Instance: 1002
+2024-11-14 03:33:05,914 - ERROR - File old/model_data\puboi_deg2_1002.csv does not exist. Skipping Instance: 1002.
+2024-11-14 03:33:05,915 - INFO - Processing Degree: deg2, Instance: 1003
+2024-11-14 03:33:05,915 - ERROR - File old/model_data\puboi_deg2_1003.csv does not exist. Skipping Instance: 1003.
+2024-11-14 03:33:05,915 - INFO - Processing Degree: deg2, Instance: 1004
+2024-11-14 03:33:05,916 - ERROR - File old/model_data\puboi_deg2_1004.csv does not exist. Skipping Instance: 1004.
+2024-11-14 03:33:05,916 - INFO - Processing Degree: deg2, Instance: 1005
+2024-11-14 03:33:05,916 - ERROR - File old/model_data\puboi_deg2_1005.csv does not exist. Skipping Instance: 1005.
+2024-11-14 03:33:05,916 - INFO - Processing Degree: deg2, Instance: 1006
+2024-11-14 03:33:05,916 - ERROR - File old/model_data\puboi_deg2_1006.csv does not exist. Skipping Instance: 1006.
+2024-11-14 03:33:05,916 - INFO - Processing Degree: deg2, Instance: 1007
+2024-11-14 03:33:05,917 - ERROR - File old/model_data\puboi_deg2_1007.csv does not exist. Skipping Instance: 1007.
+2024-11-14 03:33:05,917 - INFO - Processing Degree: deg2, Instance: 1008
+2024-11-14 03:33:05,917 - ERROR - File old/model_data\puboi_deg2_1008.csv does not exist. Skipping Instance: 1008.
+2024-11-14 03:33:05,917 - INFO - Processing Degree: deg2, Instance: 1009
+2024-11-14 03:33:05,917 - ERROR - File old/model_data\puboi_deg2_1009.csv does not exist. Skipping Instance: 1009.
+2024-11-14 03:33:05,918 - INFO - Processing Degree: deg2, Instance: 1010
+2024-11-14 03:33:05,918 - ERROR - File old/model_data\puboi_deg2_1010.csv does not exist. Skipping Instance: 1010.
+2024-11-14 03:33:05,918 - INFO - Processing Degree: deg2, Instance: 1011
+2024-11-14 03:33:05,918 - ERROR - File old/model_data\puboi_deg2_1011.csv does not exist. Skipping Instance: 1011.
+2024-11-14 03:33:05,918 - INFO - Processing Degree: deg2, Instance: 1012
+2024-11-14 03:33:05,919 - ERROR - File old/model_data\puboi_deg2_1012.csv does not exist. Skipping Instance: 1012.
+2024-11-14 03:33:05,919 - INFO - Processing Degree: deg2, Instance: 1013
+2024-11-14 03:33:05,919 - ERROR - File old/model_data\puboi_deg2_1013.csv does not exist. Skipping Instance: 1013.
+2024-11-14 03:33:05,919 - INFO - Processing Degree: deg2, Instance: 1014
+2024-11-14 03:33:05,919 - ERROR - File old/model_data\puboi_deg2_1014.csv does not exist. Skipping Instance: 1014.
+2024-11-14 03:33:05,920 - INFO - Processing Degree: deg2, Instance: 1015
+2024-11-14 03:33:05,920 - ERROR - File old/model_data\puboi_deg2_1015.csv does not exist. Skipping Instance: 1015.
+2024-11-14 03:33:05,920 - INFO - Processing Degree: deg2, Instance: 1016
+2024-11-14 03:33:05,920 - ERROR - File old/model_data\puboi_deg2_1016.csv does not exist. Skipping Instance: 1016.
+2024-11-14 03:33:05,921 - INFO - Processing Degree: deg2, Instance: 1017
+2024-11-14 03:33:05,921 - ERROR - File old/model_data\puboi_deg2_1017.csv does not exist. Skipping Instance: 1017.
+2024-11-14 03:33:05,921 - INFO - Processing Degree: deg2, Instance: 1018
+2024-11-14 03:33:05,921 - ERROR - File old/model_data\puboi_deg2_1018.csv does not exist. Skipping Instance: 1018.
+2024-11-14 03:33:05,921 - INFO - Processing Degree: deg2, Instance: 1019
+2024-11-14 03:33:05,921 - ERROR - File old/model_data\puboi_deg2_1019.csv does not exist. Skipping Instance: 1019.
+2024-11-14 03:33:05,922 - INFO - Processing Degree: deg2, Instance: 1020
+2024-11-14 03:33:05,922 - ERROR - File old/model_data\puboi_deg2_1020.csv does not exist. Skipping Instance: 1020.
+2024-11-14 03:33:05,922 - INFO - Processing Degree: deg2, Instance: 1021
+2024-11-14 03:33:05,922 - ERROR - File old/model_data\puboi_deg2_1021.csv does not exist. Skipping Instance: 1021.
+2024-11-14 03:33:05,922 - INFO - Processing Degree: deg2, Instance: 1022
+2024-11-14 03:33:05,923 - ERROR - File old/model_data\puboi_deg2_1022.csv does not exist. Skipping Instance: 1022.
+2024-11-14 03:33:05,923 - INFO - Processing Degree: deg2, Instance: 1023
+2024-11-14 03:33:05,923 - ERROR - File old/model_data\puboi_deg2_1023.csv does not exist. Skipping Instance: 1023.
+2024-11-14 03:33:05,923 - INFO - Processing Degree: deg2, Instance: 1024
+2024-11-14 03:33:05,923 - ERROR - File old/model_data\puboi_deg2_1024.csv does not exist. Skipping Instance: 1024.
+2024-11-14 03:33:05,924 - INFO - Processing Degree: deg2, Instance: 1025
+2024-11-14 03:33:05,924 - ERROR - File old/model_data\puboi_deg2_1025.csv does not exist. Skipping Instance: 1025.
+2024-11-14 03:33:05,924 - INFO - Processing Degree: deg2, Instance: 1026
+2024-11-14 03:33:05,924 - ERROR - File old/model_data\puboi_deg2_1026.csv does not exist. Skipping Instance: 1026.
+2024-11-14 03:33:05,924 - INFO - Processing Degree: deg2, Instance: 1027
+2024-11-14 03:33:05,925 - ERROR - File old/model_data\puboi_deg2_1027.csv does not exist. Skipping Instance: 1027.
+2024-11-14 03:33:05,925 - INFO - Processing Degree: deg2, Instance: 1028
+2024-11-14 03:33:05,925 - ERROR - File old/model_data\puboi_deg2_1028.csv does not exist. Skipping Instance: 1028.
+2024-11-14 03:33:05,925 - INFO - Processing Degree: deg2, Instance: 1029
+2024-11-14 03:33:05,925 - ERROR - File old/model_data\puboi_deg2_1029.csv does not exist. Skipping Instance: 1029.
+2024-11-14 03:33:05,926 - INFO - Aggregating and plotting final heatmaps across all instances.
+2024-11-14 03:33:05,926 - INFO - No data for Degree: deg2. Skipping aggregation.
+2024-11-14 03:33:05,926 - INFO - No data for Degree: deg10. Skipping aggregation.
+2024-11-14 03:33:05,926 - INFO - Completed all PUBOi ML model trainings.

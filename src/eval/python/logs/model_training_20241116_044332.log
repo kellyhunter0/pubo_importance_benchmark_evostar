@@ -1,0 +1,193 @@
+2024-11-16 04:43:32,740 - INFO - Selected instances to process: [1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1027, 1028, 1029, 1030]
+2024-11-16 04:43:32,741 - INFO - Processing Degree: deg2, Instance: 1015
+2024-11-16 04:43:32,757 - INFO - Loaded data for Instance 1015 from puboi/model_data\puboi_deg2_1015.csv.
+2024-11-16 04:43:32,763 - INFO - Loaded ground truth importances for Instance 1015.
+2024-11-16 04:43:32,763 - INFO - Instance 1015: Starting Random Forest training.
+2024-11-16 05:04:34,184 - INFO - Instance 1015: Completed Random Forest training.
+2024-11-16 05:04:34,186 - INFO - Instance 1015: Starting MLP training.
+2024-11-16 05:14:41,458 - INFO - Instance 1015: Completed MLP training.
+2024-11-16 05:14:41,458 - INFO - Aggregating explanations for Instance: 1015
+2024-11-16 05:14:42,569 - INFO - Instance 1015: SHAP heatmap saved to puboi\deg2\1015\heatmap\shap-median.png.
+2024-11-16 05:14:43,809 - INFO - Instance 1015: PFI heatmap saved to puboi\deg2\1015\heatmap\pfi-median.png.
+2024-11-16 05:14:45,084 - INFO - Instance 1015: LIME heatmap saved to puboi\deg2\1015\heatmap\lime-median.png.
+2024-11-16 05:14:45,093 - INFO - Aggregated statistics saved to puboi/deg2/1015\aggregated_metrics_summary.csv.
+2024-11-16 05:14:45,093 - INFO - Processing Degree: deg2, Instance: 1016
+2024-11-16 05:14:45,107 - INFO - Loaded data for Instance 1016 from puboi/model_data\puboi_deg2_1016.csv.
+2024-11-16 05:14:45,110 - INFO - Loaded ground truth importances for Instance 1016.
+2024-11-16 05:14:45,110 - INFO - Instance 1016: Starting Random Forest training.
+2024-11-16 05:36:40,607 - INFO - Instance 1016: Completed Random Forest training.
+2024-11-16 05:36:40,608 - INFO - Instance 1016: Starting MLP training.
+2024-11-16 05:46:04,126 - INFO - Instance 1016: Completed MLP training.
+2024-11-16 05:46:04,127 - INFO - Aggregating explanations for Instance: 1016
+2024-11-16 05:46:05,718 - INFO - Instance 1016: SHAP heatmap saved to puboi\deg2\1016\heatmap\shap-median.png.
+2024-11-16 05:46:06,949 - INFO - Instance 1016: PFI heatmap saved to puboi\deg2\1016\heatmap\pfi-median.png.
+2024-11-16 05:46:08,272 - INFO - Instance 1016: LIME heatmap saved to puboi\deg2\1016\heatmap\lime-median.png.
+2024-11-16 05:46:08,279 - INFO - Aggregated statistics saved to puboi/deg2/1016\aggregated_metrics_summary.csv.
+2024-11-16 05:46:08,280 - INFO - Processing Degree: deg2, Instance: 1017
+2024-11-16 05:46:08,298 - INFO - Loaded data for Instance 1017 from puboi/model_data\puboi_deg2_1017.csv.
+2024-11-16 05:46:08,302 - INFO - Loaded ground truth importances for Instance 1017.
+2024-11-16 05:46:08,303 - INFO - Instance 1017: Starting Random Forest training.
+2024-11-16 06:07:00,717 - INFO - Instance 1017: Completed Random Forest training.
+2024-11-16 06:07:00,717 - INFO - Instance 1017: Starting MLP training.
+2024-11-16 06:16:49,145 - INFO - Instance 1017: Completed MLP training.
+2024-11-16 06:16:49,145 - INFO - Aggregating explanations for Instance: 1017
+2024-11-16 06:16:50,069 - INFO - Instance 1017: SHAP heatmap saved to puboi\deg2\1017\heatmap\shap-median.png.
+2024-11-16 06:16:51,393 - INFO - Instance 1017: PFI heatmap saved to puboi\deg2\1017\heatmap\pfi-median.png.
+2024-11-16 06:16:52,762 - INFO - Instance 1017: LIME heatmap saved to puboi\deg2\1017\heatmap\lime-median.png.
+2024-11-16 06:16:52,769 - INFO - Aggregated statistics saved to puboi/deg2/1017\aggregated_metrics_summary.csv.
+2024-11-16 06:16:52,769 - INFO - Processing Degree: deg2, Instance: 1018
+2024-11-16 06:16:52,783 - INFO - Loaded data for Instance 1018 from puboi/model_data\puboi_deg2_1018.csv.
+2024-11-16 06:16:52,787 - INFO - Loaded ground truth importances for Instance 1018.
+2024-11-16 06:16:52,787 - INFO - Instance 1018: Starting Random Forest training.
+2024-11-16 06:37:27,640 - INFO - Instance 1018: Completed Random Forest training.
+2024-11-16 06:37:27,640 - INFO - Instance 1018: Starting MLP training.
+2024-11-16 06:47:23,487 - INFO - Instance 1018: Completed MLP training.
+2024-11-16 06:47:23,488 - INFO - Aggregating explanations for Instance: 1018
+2024-11-16 06:47:24,701 - INFO - Instance 1018: SHAP heatmap saved to puboi\deg2\1018\heatmap\shap-median.png.
+2024-11-16 06:47:25,963 - INFO - Instance 1018: PFI heatmap saved to puboi\deg2\1018\heatmap\pfi-median.png.
+2024-11-16 06:47:27,319 - INFO - Instance 1018: LIME heatmap saved to puboi\deg2\1018\heatmap\lime-median.png.
+2024-11-16 06:47:27,327 - INFO - Aggregated statistics saved to puboi/deg2/1018\aggregated_metrics_summary.csv.
+2024-11-16 06:47:27,327 - INFO - Processing Degree: deg2, Instance: 1019
+2024-11-16 06:47:27,350 - INFO - Loaded data for Instance 1019 from puboi/model_data\puboi_deg2_1019.csv.
+2024-11-16 06:47:27,354 - INFO - Loaded ground truth importances for Instance 1019.
+2024-11-16 06:47:27,354 - INFO - Instance 1019: Starting Random Forest training.
+2024-11-16 07:06:55,498 - INFO - Instance 1019: Completed Random Forest training.
+2024-11-16 07:06:55,499 - INFO - Instance 1019: Starting MLP training.
+2024-11-16 07:15:53,460 - INFO - Instance 1019: Completed MLP training.
+2024-11-16 07:15:53,460 - INFO - Aggregating explanations for Instance: 1019
+2024-11-16 07:15:54,395 - INFO - Instance 1019: SHAP heatmap saved to puboi\deg2\1019\heatmap\shap-median.png.
+2024-11-16 07:15:55,440 - INFO - Instance 1019: PFI heatmap saved to puboi\deg2\1019\heatmap\pfi-median.png.
+2024-11-16 07:15:56,393 - INFO - Instance 1019: LIME heatmap saved to puboi\deg2\1019\heatmap\lime-median.png.
+2024-11-16 07:15:56,401 - INFO - Aggregated statistics saved to puboi/deg2/1019\aggregated_metrics_summary.csv.
+2024-11-16 07:15:56,401 - INFO - Processing Degree: deg2, Instance: 1020
+2024-11-16 07:15:56,415 - INFO - Loaded data for Instance 1020 from puboi/model_data\puboi_deg2_1020.csv.
+2024-11-16 07:15:56,418 - INFO - Loaded ground truth importances for Instance 1020.
+2024-11-16 07:15:56,419 - INFO - Instance 1020: Starting Random Forest training.
+2024-11-16 07:34:14,130 - INFO - Instance 1020: Completed Random Forest training.
+2024-11-16 07:34:14,130 - INFO - Instance 1020: Starting MLP training.
+2024-11-16 07:43:18,925 - INFO - Instance 1020: Completed MLP training.
+2024-11-16 07:43:18,925 - INFO - Aggregating explanations for Instance: 1020
+2024-11-16 07:43:19,878 - INFO - Instance 1020: SHAP heatmap saved to puboi\deg2\1020\heatmap\shap-median.png.
+2024-11-16 07:43:21,000 - INFO - Instance 1020: PFI heatmap saved to puboi\deg2\1020\heatmap\pfi-median.png.
+2024-11-16 07:43:21,960 - INFO - Instance 1020: LIME heatmap saved to puboi\deg2\1020\heatmap\lime-median.png.
+2024-11-16 07:43:21,967 - INFO - Aggregated statistics saved to puboi/deg2/1020\aggregated_metrics_summary.csv.
+2024-11-16 07:43:21,967 - INFO - Processing Degree: deg2, Instance: 1021
+2024-11-16 07:43:21,981 - INFO - Loaded data for Instance 1021 from puboi/model_data\puboi_deg2_1021.csv.
+2024-11-16 07:43:21,984 - INFO - Loaded ground truth importances for Instance 1021.
+2024-11-16 07:43:21,984 - INFO - Instance 1021: Starting Random Forest training.
+2024-11-16 08:01:08,480 - INFO - Instance 1021: Completed Random Forest training.
+2024-11-16 08:01:08,480 - INFO - Instance 1021: Starting MLP training.
+2024-11-16 08:10:30,741 - INFO - Instance 1021: Completed MLP training.
+2024-11-16 08:10:30,741 - INFO - Aggregating explanations for Instance: 1021
+2024-11-16 08:10:31,929 - INFO - Instance 1021: SHAP heatmap saved to puboi\deg2\1021\heatmap\shap-median.png.
+2024-11-16 08:10:33,328 - INFO - Instance 1021: PFI heatmap saved to puboi\deg2\1021\heatmap\pfi-median.png.
+2024-11-16 08:10:34,574 - INFO - Instance 1021: LIME heatmap saved to puboi\deg2\1021\heatmap\lime-median.png.
+2024-11-16 08:10:34,584 - INFO - Aggregated statistics saved to puboi/deg2/1021\aggregated_metrics_summary.csv.
+2024-11-16 08:10:34,584 - INFO - Processing Degree: deg2, Instance: 1022
+2024-11-16 08:10:34,605 - INFO - Loaded data for Instance 1022 from puboi/model_data\puboi_deg2_1022.csv.
+2024-11-16 08:10:34,608 - INFO - Loaded ground truth importances for Instance 1022.
+2024-11-16 08:10:34,608 - INFO - Instance 1022: Starting Random Forest training.
+2024-11-16 08:28:31,702 - INFO - Instance 1022: Completed Random Forest training.
+2024-11-16 08:28:31,702 - INFO - Instance 1022: Starting MLP training.
+2024-11-16 08:37:23,747 - INFO - Instance 1022: Completed MLP training.
+2024-11-16 08:37:23,747 - INFO - Aggregating explanations for Instance: 1022
+2024-11-16 08:37:25,008 - INFO - Instance 1022: SHAP heatmap saved to puboi\deg2\1022\heatmap\shap-median.png.
+2024-11-16 08:37:26,184 - INFO - Instance 1022: PFI heatmap saved to puboi\deg2\1022\heatmap\pfi-median.png.
+2024-11-16 08:37:27,439 - INFO - Instance 1022: LIME heatmap saved to puboi\deg2\1022\heatmap\lime-median.png.
+2024-11-16 08:37:27,449 - INFO - Aggregated statistics saved to puboi/deg2/1022\aggregated_metrics_summary.csv.
+2024-11-16 08:37:27,450 - INFO - Processing Degree: deg2, Instance: 1023
+2024-11-16 08:37:27,469 - INFO - Loaded data for Instance 1023 from puboi/model_data\puboi_deg2_1023.csv.
+2024-11-16 08:37:27,473 - INFO - Loaded ground truth importances for Instance 1023.
+2024-11-16 08:37:27,474 - INFO - Instance 1023: Starting Random Forest training.
+2024-11-16 08:54:50,551 - INFO - Instance 1023: Completed Random Forest training.
+2024-11-16 08:54:50,552 - INFO - Instance 1023: Starting MLP training.
+2024-11-16 09:03:40,151 - INFO - Instance 1023: Completed MLP training.
+2024-11-16 09:03:40,152 - INFO - Aggregating explanations for Instance: 1023
+2024-11-16 09:03:41,507 - INFO - Instance 1023: SHAP heatmap saved to puboi\deg2\1023\heatmap\shap-median.png.
+2024-11-16 09:03:42,629 - INFO - Instance 1023: PFI heatmap saved to puboi\deg2\1023\heatmap\pfi-median.png.
+2024-11-16 09:03:43,831 - INFO - Instance 1023: LIME heatmap saved to puboi\deg2\1023\heatmap\lime-median.png.
+2024-11-16 09:03:43,839 - INFO - Aggregated statistics saved to puboi/deg2/1023\aggregated_metrics_summary.csv.
+2024-11-16 09:03:43,839 - INFO - Processing Degree: deg2, Instance: 1024
+2024-11-16 09:03:43,856 - INFO - Loaded data for Instance 1024 from puboi/model_data\puboi_deg2_1024.csv.
+2024-11-16 09:03:43,858 - INFO - Loaded ground truth importances for Instance 1024.
+2024-11-16 09:03:43,859 - INFO - Instance 1024: Starting Random Forest training.
+2024-11-16 09:21:11,669 - INFO - Instance 1024: Completed Random Forest training.
+2024-11-16 09:21:11,670 - INFO - Instance 1024: Starting MLP training.
+2024-11-16 09:30:10,238 - INFO - Instance 1024: Completed MLP training.
+2024-11-16 09:30:10,238 - INFO - Aggregating explanations for Instance: 1024
+2024-11-16 09:30:11,392 - INFO - Instance 1024: SHAP heatmap saved to puboi\deg2\1024\heatmap\shap-median.png.
+2024-11-16 09:30:12,713 - INFO - Instance 1024: PFI heatmap saved to puboi\deg2\1024\heatmap\pfi-median.png.
+2024-11-16 09:30:13,876 - INFO - Instance 1024: LIME heatmap saved to puboi\deg2\1024\heatmap\lime-median.png.
+2024-11-16 09:30:13,883 - INFO - Aggregated statistics saved to puboi/deg2/1024\aggregated_metrics_summary.csv.
+2024-11-16 09:30:13,883 - INFO - Processing Degree: deg2, Instance: 1025
+2024-11-16 09:30:13,900 - INFO - Loaded data for Instance 1025 from puboi/model_data\puboi_deg2_1025.csv.
+2024-11-16 09:30:13,903 - INFO - Loaded ground truth importances for Instance 1025.
+2024-11-16 09:30:13,903 - INFO - Instance 1025: Starting Random Forest training.
+2024-11-16 09:47:26,562 - INFO - Instance 1025: Completed Random Forest training.
+2024-11-16 09:47:26,563 - INFO - Instance 1025: Starting MLP training.
+2024-11-16 09:56:18,699 - INFO - Instance 1025: Completed MLP training.
+2024-11-16 09:56:18,699 - INFO - Aggregating explanations for Instance: 1025
+2024-11-16 09:56:19,842 - INFO - Instance 1025: SHAP heatmap saved to puboi\deg2\1025\heatmap\shap-median.png.
+2024-11-16 09:56:21,159 - INFO - Instance 1025: PFI heatmap saved to puboi\deg2\1025\heatmap\pfi-median.png.
+2024-11-16 09:56:22,335 - INFO - Instance 1025: LIME heatmap saved to puboi\deg2\1025\heatmap\lime-median.png.
+2024-11-16 09:56:22,342 - INFO - Aggregated statistics saved to puboi/deg2/1025\aggregated_metrics_summary.csv.
+2024-11-16 09:56:22,343 - INFO - Processing Degree: deg2, Instance: 1026
+2024-11-16 09:56:22,362 - INFO - Loaded data for Instance 1026 from puboi/model_data\puboi_deg2_1026.csv.
+2024-11-16 09:56:22,366 - INFO - Loaded ground truth importances for Instance 1026.
+2024-11-16 09:56:22,366 - INFO - Instance 1026: Starting Random Forest training.
+2024-11-16 10:13:48,290 - INFO - Instance 1026: Completed Random Forest training.
+2024-11-16 10:13:48,291 - INFO - Instance 1026: Starting MLP training.
+2024-11-16 10:21:28,809 - INFO - Instance 1026: Completed MLP training.
+2024-11-16 10:21:28,809 - INFO - Aggregating explanations for Instance: 1026
+2024-11-16 10:21:30,181 - INFO - Instance 1026: SHAP heatmap saved to puboi\deg2\1026\heatmap\shap-median.png.
+2024-11-16 10:21:31,323 - INFO - Instance 1026: PFI heatmap saved to puboi\deg2\1026\heatmap\pfi-median.png.
+2024-11-16 10:21:32,503 - INFO - Instance 1026: LIME heatmap saved to puboi\deg2\1026\heatmap\lime-median.png.
+2024-11-16 10:21:32,517 - INFO - Aggregated statistics saved to puboi/deg2/1026\aggregated_metrics_summary.csv.
+2024-11-16 10:21:32,517 - INFO - Processing Degree: deg2, Instance: 1027
+2024-11-16 10:21:32,538 - INFO - Loaded data for Instance 1027 from puboi/model_data\puboi_deg2_1027.csv.
+2024-11-16 10:21:32,541 - INFO - Loaded ground truth importances for Instance 1027.
+2024-11-16 10:21:32,542 - INFO - Instance 1027: Starting Random Forest training.
+2024-11-16 10:39:27,582 - INFO - Instance 1027: Completed Random Forest training.
+2024-11-16 10:39:27,583 - INFO - Instance 1027: Starting MLP training.
+2024-11-16 10:47:19,389 - INFO - Instance 1027: Completed MLP training.
+2024-11-16 10:47:19,389 - INFO - Aggregating explanations for Instance: 1027
+2024-11-16 10:47:20,552 - INFO - Instance 1027: SHAP heatmap saved to puboi\deg2\1027\heatmap\shap-median.png.
+2024-11-16 10:47:21,860 - INFO - Instance 1027: PFI heatmap saved to puboi\deg2\1027\heatmap\pfi-median.png.
+2024-11-16 10:47:23,134 - INFO - Instance 1027: LIME heatmap saved to puboi\deg2\1027\heatmap\lime-median.png.
+2024-11-16 10:47:23,146 - INFO - Aggregated statistics saved to puboi/deg2/1027\aggregated_metrics_summary.csv.
+2024-11-16 10:47:23,147 - INFO - Processing Degree: deg2, Instance: 1028
+2024-11-16 10:47:23,165 - INFO - Loaded data for Instance 1028 from puboi/model_data\puboi_deg2_1028.csv.
+2024-11-16 10:47:23,170 - INFO - Loaded ground truth importances for Instance 1028.
+2024-11-16 10:47:23,170 - INFO - Instance 1028: Starting Random Forest training.
+2024-11-16 11:05:35,809 - INFO - Instance 1028: Completed Random Forest training.
+2024-11-16 11:05:35,809 - INFO - Instance 1028: Starting MLP training.
+2024-11-16 11:13:23,076 - INFO - Instance 1028: Completed MLP training.
+2024-11-16 11:13:23,076 - INFO - Aggregating explanations for Instance: 1028
+2024-11-16 11:13:24,201 - INFO - Instance 1028: SHAP heatmap saved to puboi\deg2\1028\heatmap\shap-median.png.
+2024-11-16 11:13:25,441 - INFO - Instance 1028: PFI heatmap saved to puboi\deg2\1028\heatmap\pfi-median.png.
+2024-11-16 11:13:26,620 - INFO - Instance 1028: LIME heatmap saved to puboi\deg2\1028\heatmap\lime-median.png.
+2024-11-16 11:13:26,630 - INFO - Aggregated statistics saved to puboi/deg2/1028\aggregated_metrics_summary.csv.
+2024-11-16 11:13:26,630 - INFO - Processing Degree: deg2, Instance: 1029
+2024-11-16 11:13:26,645 - INFO - Loaded data for Instance 1029 from puboi/model_data\puboi_deg2_1029.csv.
+2024-11-16 11:13:26,648 - INFO - Loaded ground truth importances for Instance 1029.
+2024-11-16 11:13:26,648 - INFO - Instance 1029: Starting Random Forest training.
+2024-11-16 11:31:40,400 - INFO - Instance 1029: Completed Random Forest training.
+2024-11-16 11:31:40,400 - INFO - Instance 1029: Starting MLP training.
+2024-11-16 11:39:33,577 - INFO - Instance 1029: Completed MLP training.
+2024-11-16 11:39:33,577 - INFO - Aggregating explanations for Instance: 1029
+2024-11-16 11:39:34,704 - INFO - Instance 1029: SHAP heatmap saved to puboi\deg2\1029\heatmap\shap-median.png.
+2024-11-16 11:39:35,967 - INFO - Instance 1029: PFI heatmap saved to puboi\deg2\1029\heatmap\pfi-median.png.
+2024-11-16 11:39:37,195 - INFO - Instance 1029: LIME heatmap saved to puboi\deg2\1029\heatmap\lime-median.png.
+2024-11-16 11:39:37,205 - INFO - Aggregated statistics saved to puboi/deg2/1029\aggregated_metrics_summary.csv.
+2024-11-16 11:39:37,212 - INFO - Instance 1029: Raw metrics saved.
+2024-11-16 11:39:37,213 - INFO - Aggregating and plotting final heatmaps across all instances.
+2024-11-16 11:39:37,214 - INFO - Aggregating and plotting heatmaps for Degree: deg2
+2024-11-16 11:39:38,332 - INFO - Aggregated SHAP heatmap for deg2 saved to puboi\deg2\aggregated_heatmaps\shap_aggregated_heatmap.png.
+2024-11-16 11:39:39,465 - INFO - Normalized SHAP heatmap for deg2 saved to puboi\deg2\aggregated_heatmaps\shap_normalized_heatmap.png.
+2024-11-16 11:39:40,641 - INFO - Aggregated PFI heatmap for deg2 saved to puboi\deg2\aggregated_heatmaps\pfi_aggregated_heatmap.png.
+2024-11-16 11:39:41,829 - INFO - Normalized PFI heatmap for deg2 saved to puboi\deg2\aggregated_heatmaps\pfi_normalized_heatmap.png.
+2024-11-16 11:39:42,885 - INFO - Aggregated LIME heatmap for deg2 saved to puboi\deg2\aggregated_heatmaps\lime_aggregated_heatmap.png.
+2024-11-16 11:39:44,051 - INFO - Normalized LIME heatmap for deg2 saved to puboi\deg2\aggregated_heatmaps\lime_normalized_heatmap.png.
+2024-11-16 11:39:44,325 - INFO - Model performance plot for deg2 saved to puboi\deg2\aggregated_heatmaps\model_performance.png.
+2024-11-16 11:39:44,327 - INFO - R² scores for deg2 saved to puboi\deg2\aggregated_heatmaps\r2_scores_median.csv.
+2024-11-16 11:39:44,328 - INFO - Completed all PUBOi ML model trainings.

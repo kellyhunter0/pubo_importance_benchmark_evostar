@@ -1,0 +1,42 @@
+2024-11-09 03:59:50,790 - INFO - Selected instances to process: [1000]
+2024-11-09 03:59:50,791 - INFO - Processing Degree: deg2, Instance: 1000
+2024-11-09 03:59:50,810 - INFO - Loaded data for Instance 1000 from puboi/model_data\puboi_deg2_1000.csv.
+2024-11-09 03:59:50,814 - INFO - Loaded ground truth importances for Instance 1000.
+2024-11-09 03:59:50,814 - INFO - Instance 1000: Starting Linear Regression training.
+2024-11-09 03:59:50,814 - INFO - Instance 1000: Completed Linear Regression training.
+2024-11-09 03:59:50,815 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-09 03:59:50,817 - INFO - 
+Computing Random Forest models...
+2024-11-09 03:59:51,150 - INFO - 
+RF R2 score for fold 1: 0.9988129
+2024-11-09 04:03:29,445 - INFO - Fold 1 - LIME Explainer initialized.
+2024-11-09 04:06:02,976 - INFO - Fold 1 - LIME importances computed: [[ 0.38286083  0.28755667  0.58495658 ... -0.31841381 -0.01123202
+  -0.08507381]
+ [ 0.47453142  0.23882114  0.9783513  ...  0.15023075 -0.11041573
+   0.11784835]
+ [ 0.48982875  0.26947457  0.63755252 ...  0.14045553 -0.0914478
+  -0.08103858]
+ ...
+ [-0.43419596 -0.04428954 -0.63615593 ...  0.12280754  0.04254443
+  -0.21844104]
+ [-0.24546486 -0.04473089 -0.82628625 ...  0.06077357  0.04574122
+  -0.16658524]
+ [-0.44457369 -0.31772549 -0.60457678 ...  0.03818344  0.17761776
+   0.02027179]]
+2024-11-09 04:06:02,979 - INFO - Fold 1 - Computing permutation importance...
+2024-11-09 04:06:07,038 - INFO - Fold 1 - PFI importances computed.
+2024-11-09 04:06:08,034 - INFO - SHAP summary for 1, instance number 1000
+2024-11-09 04:06:08,049 - INFO - SHAP ground truth metrics computing...
+2024-11-09 04:06:08,051 - INFO - {'value': '0.78446', 'error': '0.00089'}
+2024-11-09 04:06:08,053 - INFO - {'value': '0.66299', 'error': '0.00468'}
+2024-11-09 04:06:08,055 - INFO - 0.8
+2024-11-09 04:06:08,055 - INFO - PFI ground truth metrics computing...
+2024-11-09 04:06:08,056 - INFO - {'value': '0.78446', 'error': '0.00089'}
+2024-11-09 04:06:08,057 - INFO - {'value': '0.66299', 'error': '0.00468'}
+2024-11-09 04:06:08,058 - INFO - 0.8
+2024-11-09 04:06:08,058 - INFO - LIME ground truth metrics computing...
+2024-11-09 04:06:08,059 - INFO - {'value': '0.78446', 'error': '0.00089'}
+2024-11-09 04:06:08,060 - INFO - {'value': '0.66299', 'error': '0.00468'}
+2024-11-09 04:06:08,062 - INFO - 0.8
+2024-11-09 04:06:08,317 - INFO - 
+RF R2 score for fold 2: 0.9994063

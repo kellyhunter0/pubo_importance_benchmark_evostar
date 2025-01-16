@@ -1,0 +1,138 @@
+2024-11-15 18:19:05,600 - INFO - Selected instances to process: [1000, 1001]
+2024-11-15 18:19:05,602 - INFO - Processing Degree: deg2, Instance: 1000
+2024-11-15 18:19:05,607 - INFO -   Processing Run 1 for Instance 1000
+2024-11-15 18:19:05,608 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-15 18:19:38,558 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-15 18:19:38,558 - INFO - Instance 1000: Starting MLP training.
+2024-11-15 18:19:57,491 - INFO - Instance 1000: Completed MLP training.
+2024-11-15 18:19:57,494 - INFO - Raw metrics for Instance 1000, Run 1, Degree deg2. Saved to ils-split\deg2\1000\Run1-raw_metrics.csv.
+2024-11-15 18:19:57,498 - INFO - Aggregated statistics saved to ils-split\aggregated_metrics_summary.csv.
+2024-11-15 18:19:57,499 - INFO - Instance 1000: Raw metrics saved.
+2024-11-15 18:19:57,499 - INFO -   Processing Run 2 for Instance 1000
+2024-11-15 18:19:57,501 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-15 18:20:23,939 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-15 18:20:23,940 - INFO - Instance 1000: Starting MLP training.
+2024-11-15 18:20:44,335 - INFO - Instance 1000: Completed MLP training.
+2024-11-15 18:20:44,337 - INFO - Raw metrics for Instance 1000, Run 2, Degree deg2. Saved to ils-split\deg2\1000\Run2-raw_metrics.csv.
+2024-11-15 18:20:44,343 - INFO - Aggregated statistics saved to ils-split\aggregated_metrics_summary.csv.
+2024-11-15 18:20:44,343 - INFO - Instance 1000: Raw metrics saved.
+2024-11-15 18:20:44,344 - INFO -   Processing Run 3 for Instance 1000
+2024-11-15 18:20:44,347 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-15 18:21:13,583 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-15 18:21:13,583 - INFO - Instance 1000: Starting MLP training.
+2024-11-15 18:21:29,894 - INFO - Instance 1000: Completed MLP training.
+2024-11-15 18:21:29,897 - INFO - Raw metrics for Instance 1000, Run 3, Degree deg2. Saved to ils-split\deg2\1000\Run3-raw_metrics.csv.
+2024-11-15 18:21:29,901 - INFO - Aggregated statistics saved to ils-split\aggregated_metrics_summary.csv.
+2024-11-15 18:21:29,901 - INFO - Instance 1000: Raw metrics saved.
+2024-11-15 18:21:29,902 - INFO -   Processing Run 4 for Instance 1000
+2024-11-15 18:21:29,904 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-15 18:21:51,046 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-15 18:21:51,047 - INFO - Instance 1000: Starting MLP training.
+2024-11-15 18:22:07,791 - INFO - Instance 1000: Completed MLP training.
+2024-11-15 18:22:07,793 - INFO - Raw metrics for Instance 1000, Run 4, Degree deg2. Saved to ils-split\deg2\1000\Run4-raw_metrics.csv.
+2024-11-15 18:22:07,797 - INFO - Aggregated statistics saved to ils-split\aggregated_metrics_summary.csv.
+2024-11-15 18:22:07,797 - INFO - Instance 1000: Raw metrics saved.
+2024-11-15 18:22:07,798 - INFO -   Processing Run 5 for Instance 1000
+2024-11-15 18:22:07,800 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-15 18:22:30,581 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-15 18:22:30,581 - INFO - Instance 1000: Starting MLP training.
+2024-11-15 18:22:46,937 - INFO - Instance 1000: Completed MLP training.
+2024-11-15 18:22:46,939 - INFO - Raw metrics for Instance 1000, Run 5, Degree deg2. Saved to ils-split\deg2\1000\Run5-raw_metrics.csv.
+2024-11-15 18:22:46,942 - INFO - Aggregated statistics saved to ils-split\aggregated_metrics_summary.csv.
+2024-11-15 18:22:46,942 - INFO - Instance 1000: Raw metrics saved.
+2024-11-15 18:22:46,943 - INFO -   Processing Run 6 for Instance 1000
+2024-11-15 18:22:46,945 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-15 18:23:09,873 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-15 18:23:09,873 - INFO - Instance 1000: Starting MLP training.
+2024-11-15 18:23:27,603 - INFO - Instance 1000: Completed MLP training.
+2024-11-15 18:23:27,605 - INFO - Raw metrics for Instance 1000, Run 6, Degree deg2. Saved to ils-split\deg2\1000\Run6-raw_metrics.csv.
+2024-11-15 18:23:27,609 - INFO - Aggregated statistics saved to ils-split\aggregated_metrics_summary.csv.
+2024-11-15 18:23:27,609 - INFO - Instance 1000: Raw metrics saved.
+2024-11-15 18:23:27,609 - INFO -   Processing Run 7 for Instance 1000
+2024-11-15 18:23:27,611 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-15 18:23:52,164 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-15 18:23:52,164 - INFO - Instance 1000: Starting MLP training.
+2024-11-15 18:24:08,844 - INFO - Instance 1000: Completed MLP training.
+2024-11-15 18:24:08,846 - INFO - Raw metrics for Instance 1000, Run 7, Degree deg2. Saved to ils-split\deg2\1000\Run7-raw_metrics.csv.
+2024-11-15 18:24:08,849 - INFO - Aggregated statistics saved to ils-split\aggregated_metrics_summary.csv.
+2024-11-15 18:24:08,849 - INFO - Instance 1000: Raw metrics saved.
+2024-11-15 18:24:08,849 - INFO -   Processing Run 8 for Instance 1000
+2024-11-15 18:24:08,851 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-15 18:24:31,189 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-15 18:24:31,189 - INFO - Instance 1000: Starting MLP training.
+2024-11-15 18:24:48,304 - INFO - Instance 1000: Completed MLP training.
+2024-11-15 18:24:48,306 - INFO - Raw metrics for Instance 1000, Run 8, Degree deg2. Saved to ils-split\deg2\1000\Run8-raw_metrics.csv.
+2024-11-15 18:24:48,311 - INFO - Aggregated statistics saved to ils-split\aggregated_metrics_summary.csv.
+2024-11-15 18:24:48,311 - INFO - Instance 1000: Raw metrics saved.
+2024-11-15 18:24:48,311 - INFO -   Processing Run 9 for Instance 1000
+2024-11-15 18:24:48,314 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-15 18:25:13,541 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-15 18:25:13,541 - INFO - Instance 1000: Starting MLP training.
+2024-11-15 18:25:32,358 - INFO - Instance 1000: Completed MLP training.
+2024-11-15 18:25:32,361 - INFO - Raw metrics for Instance 1000, Run 9, Degree deg2. Saved to ils-split\deg2\1000\Run9-raw_metrics.csv.
+2024-11-15 18:25:32,366 - INFO - Aggregated statistics saved to ils-split\aggregated_metrics_summary.csv.
+2024-11-15 18:25:32,367 - INFO - Instance 1000: Raw metrics saved.
+2024-11-15 18:25:32,367 - INFO -   Processing Run 10 for Instance 1000
+2024-11-15 18:25:32,369 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-15 18:25:59,835 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-15 18:25:59,835 - INFO - Instance 1000: Starting MLP training.
+2024-11-15 18:26:21,235 - INFO - Instance 1000: Completed MLP training.
+2024-11-15 18:26:21,238 - INFO - Raw metrics for Instance 1000, Run 10, Degree deg2. Saved to ils-split\deg2\1000\Run10-raw_metrics.csv.
+2024-11-15 18:26:21,243 - INFO - Aggregated statistics saved to ils-split\aggregated_metrics_summary.csv.
+2024-11-15 18:26:21,244 - INFO - Instance 1000: Raw metrics saved.
+2024-11-15 18:26:21,244 - INFO - Aggregating explanations for Instance: 1000
+2024-11-15 18:26:22,475 - INFO - Heatmap 'Model Performance with SHAP for ILS - Instance 1000 (deg2)' saved to 'ils-split\deg2\1000\heatmap\shap-median.png'
+2024-11-15 18:26:23,582 - INFO - Heatmap 'Model Performance with PFI for ILS - Instance 1000 (deg2)' saved to 'ils-split\deg2\1000\heatmap\pfi-median.png'
+2024-11-15 18:26:24,681 - INFO - Heatmap 'Model Performance with LIME for ILS - Instance 1000 (deg2)' saved to 'ils-split\deg2\1000\heatmap\lime-median.png'
+2024-11-15 18:26:24,681 - INFO - Instance 1000: Raw metrics saved.
+2024-11-15 18:26:24,684 - INFO - Processing Degree: deg2, Instance: 1001
+2024-11-15 18:26:24,688 - INFO -   Processing Run 1 for Instance 1001
+2024-11-15 18:26:24,690 - INFO - Instance 1001: Starting Random Forest training.
+2024-11-15 18:26:52,010 - INFO - Instance 1001: Completed Random Forest training.
+2024-11-15 18:26:52,010 - INFO - Instance 1001: Starting MLP training.
+2024-11-15 18:27:12,635 - INFO - Instance 1001: Completed MLP training.
+2024-11-15 18:27:12,638 - INFO - Raw metrics for Instance 1001, Run 1, Degree deg2. Saved to ils-split\deg2\1001\Run1-raw_metrics.csv.
+2024-11-15 18:27:12,642 - INFO - Aggregated statistics saved to ils-split\aggregated_metrics_summary.csv.
+2024-11-15 18:27:12,643 - INFO - Instance 1001: Raw metrics saved.
+2024-11-15 18:27:12,643 - INFO -   Processing Run 2 for Instance 1001
+2024-11-15 18:27:12,648 - INFO - Instance 1001: Starting Random Forest training.
+2024-11-15 18:27:38,483 - INFO - Instance 1001: Completed Random Forest training.
+2024-11-15 18:27:38,484 - INFO - Instance 1001: Starting MLP training.
+2024-11-15 18:27:55,820 - INFO - Instance 1001: Completed MLP training.
+2024-11-15 18:27:55,823 - INFO - Raw metrics for Instance 1001, Run 2, Degree deg2. Saved to ils-split\deg2\1001\Run2-raw_metrics.csv.
+2024-11-15 18:27:55,827 - INFO - Aggregated statistics saved to ils-split\aggregated_metrics_summary.csv.
+2024-11-15 18:27:55,827 - INFO - Instance 1001: Raw metrics saved.
+2024-11-15 18:27:55,827 - INFO -   Processing Run 3 for Instance 1001
+2024-11-15 18:27:55,829 - INFO - Instance 1001: Starting Random Forest training.
+2024-11-15 18:28:18,023 - INFO - Instance 1001: Completed Random Forest training.
+2024-11-15 18:28:18,023 - INFO - Instance 1001: Starting MLP training.
+2024-11-15 18:28:35,128 - INFO - Instance 1001: Completed MLP training.
+2024-11-15 18:28:35,130 - INFO - Raw metrics for Instance 1001, Run 3, Degree deg2. Saved to ils-split\deg2\1001\Run3-raw_metrics.csv.
+2024-11-15 18:28:35,134 - INFO - Aggregated statistics saved to ils-split\aggregated_metrics_summary.csv.
+2024-11-15 18:28:35,135 - INFO - Instance 1001: Raw metrics saved.
+2024-11-15 18:28:35,135 - INFO -   Processing Run 4 for Instance 1001
+2024-11-15 18:28:35,137 - INFO - Instance 1001: Starting Random Forest training.
+2024-11-15 18:28:57,637 - INFO - Instance 1001: Completed Random Forest training.
+2024-11-15 18:28:57,637 - INFO - Instance 1001: Starting MLP training.
+2024-11-15 18:29:15,038 - INFO - Instance 1001: Completed MLP training.
+2024-11-15 18:29:15,040 - INFO - Raw metrics for Instance 1001, Run 4, Degree deg2. Saved to ils-split\deg2\1001\Run4-raw_metrics.csv.
+2024-11-15 18:29:15,044 - INFO - Aggregated statistics saved to ils-split\aggregated_metrics_summary.csv.
+2024-11-15 18:29:15,045 - INFO - Instance 1001: Raw metrics saved.
+2024-11-15 18:29:15,045 - INFO -   Processing Run 5 for Instance 1001
+2024-11-15 18:29:15,047 - INFO - Instance 1001: Starting Random Forest training.
+2024-11-15 18:29:37,985 - INFO - Instance 1001: Completed Random Forest training.
+2024-11-15 18:29:37,985 - INFO - Instance 1001: Starting MLP training.
+2024-11-15 18:29:56,390 - INFO - Instance 1001: Completed MLP training.
+2024-11-15 18:29:56,394 - INFO - Raw metrics for Instance 1001, Run 5, Degree deg2. Saved to ils-split\deg2\1001\Run5-raw_metrics.csv.
+2024-11-15 18:29:56,397 - INFO - Aggregated statistics saved to ils-split\aggregated_metrics_summary.csv.
+2024-11-15 18:29:56,398 - INFO - Instance 1001: Raw metrics saved.
+2024-11-15 18:29:56,398 - INFO -   Processing Run 6 for Instance 1001
+2024-11-15 18:29:56,400 - INFO - Instance 1001: Starting Random Forest training.
+2024-11-15 18:30:19,875 - INFO - Instance 1001: Completed Random Forest training.
+2024-11-15 18:30:19,876 - INFO - Instance 1001: Starting MLP training.
+2024-11-15 18:30:36,910 - INFO - Instance 1001: Completed MLP training.
+2024-11-15 18:30:36,912 - INFO - Raw metrics for Instance 1001, Run 6, Degree deg2. Saved to ils-split\deg2\1001\Run6-raw_metrics.csv.
+2024-11-15 18:30:36,916 - INFO - Aggregated statistics saved to ils-split\aggregated_metrics_summary.csv.
+2024-11-15 18:30:36,917 - INFO - Instance 1001: Raw metrics saved.
+2024-11-15 18:30:36,917 - INFO -   Processing Run 7 for Instance 1001
+2024-11-15 18:30:36,919 - INFO - Instance 1001: Starting Random Forest training.

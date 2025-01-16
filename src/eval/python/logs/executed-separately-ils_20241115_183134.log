@@ -1,0 +1,8 @@
+2024-11-15 18:31:34,062 - INFO - Selected instances to process: [1000, 1001]
+2024-11-15 18:31:34,064 - INFO - Processing Degree: deg2, Instance: 1000
+2024-11-15 18:31:34,069 - INFO -   Processing Run 1 for Instance 1000
+2024-11-15 18:31:34,071 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-15 18:32:09,436 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-15 18:32:09,437 - INFO - Instance 1000: Starting MLP training.
+2024-11-15 18:32:28,883 - INFO - Instance 1000: Completed MLP training.
+2024-11-15 18:32:28,887 - INFO - Raw metrics for Instance 1000, Run 1, Degree deg2. Saved to ils-split\deg2\1000\Run1-raw_metrics.csv.

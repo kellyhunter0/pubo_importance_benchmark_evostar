@@ -1,0 +1,4 @@
+2024-11-15 01:52:55,309 - INFO - Selected instances to process: [1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010]
+2024-11-15 01:52:55,311 - INFO - Processing Degree: deg2, Instance: 1000
+2024-11-15 01:52:55,315 - INFO -   Processing Run 1 for Instance 1000
+2024-11-15 01:52:55,317 - INFO - Instance 1000: Starting Random Forest training.

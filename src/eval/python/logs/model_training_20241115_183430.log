@@ -1,0 +1,32 @@
+2024-11-15 18:34:30,610 - INFO - Selected instances to process: [1000]
+2024-11-15 18:34:30,610 - INFO - Processing Degree: deg2, Instance: 1000
+2024-11-15 18:34:30,624 - INFO - Loaded data for Instance 1000 from puboi/model_data\puboi_deg2_1000.csv.
+2024-11-15 18:34:30,626 - INFO - Loaded ground truth importances for Instance 1000.
+2024-11-15 18:34:30,626 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-15 18:52:10,783 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-15 18:52:10,783 - INFO - Instance 1000: Starting MLP training.
+2024-11-15 18:58:28,089 - INFO - Instance 1000: Completed MLP training.
+2024-11-15 18:58:28,089 - INFO - Aggregating explanations for Instance: 1000
+2024-11-15 18:58:28,974 - INFO - Instance 1000: SHAP heatmap saved to puboi\deg2\1000\heatmap\shap-median.png.
+2024-11-15 18:58:29,860 - INFO - Instance 1000: PFI heatmap saved to puboi\deg2\1000\heatmap\pfi-median.png.
+2024-11-15 18:58:30,869 - INFO - Instance 1000: LIME heatmap saved to puboi\deg2\1000\heatmap\lime-median.png.
+2024-11-15 18:58:30,874 - INFO - Aggregated statistics saved to puboi\deg2\1000aggregated_metrics_summary.csv.
+2024-11-15 18:58:30,877 - INFO - Instance 1029: Raw metrics saved.
+2024-11-15 18:58:30,879 - INFO - Instance 1079: Raw metrics saved.
+2024-11-15 18:58:30,879 - INFO - Aggregating and plotting final heatmaps across all instances.
+2024-11-15 18:58:30,880 - INFO - Aggregating and plotting heatmaps for Degree: deg2
+2024-11-15 18:58:31,819 - INFO - Aggregated SHAP heatmap for deg2 saved to puboi\deg2\aggregated_heatmaps\shap_aggregated_heatmap.png.
+2024-11-15 18:58:32,669 - INFO - Normalized SHAP heatmap for deg2 saved to puboi\deg2\aggregated_heatmaps\shap_normalized_heatmap.png.
+2024-11-15 18:58:33,547 - INFO - Aggregated PFI heatmap for deg2 saved to puboi\deg2\aggregated_heatmaps\pfi_aggregated_heatmap.png.
+2024-11-15 18:58:34,413 - INFO - Normalized PFI heatmap for deg2 saved to puboi\deg2\aggregated_heatmaps\pfi_normalized_heatmap.png.
+2024-11-15 18:58:35,312 - INFO - Aggregated LIME heatmap for deg2 saved to puboi\deg2\aggregated_heatmaps\lime_aggregated_heatmap.png.
+2024-11-15 18:58:36,191 - INFO - Normalized LIME heatmap for deg2 saved to puboi\deg2\aggregated_heatmaps\lime_normalized_heatmap.png.
+2024-11-15 18:58:36,389 - INFO - Model performance plot for deg2 saved to puboi\deg2\aggregated_heatmaps\model_performance.png.
+2024-11-15 18:58:36,391 - INFO - R² scores for deg2 saved to puboi\deg2\aggregated_heatmaps\r2_scores.csv.
+2024-11-15 18:58:36,392 - INFO - Aggregating and plotting heatmaps for Degree: deg10
+2024-11-15 18:58:36,392 - WARNING - No explanations to aggregate.
+2024-11-15 18:58:36,393 - WARNING - No explanations to aggregate.
+2024-11-15 18:58:36,393 - WARNING - No explanations to aggregate.
+2024-11-15 18:58:36,581 - INFO - Model performance plot for deg10 saved to puboi\deg10\aggregated_heatmaps\model_performance.png.
+2024-11-15 18:58:36,583 - INFO - R² scores for deg10 saved to puboi\deg10\aggregated_heatmaps\r2_scores.csv.
+2024-11-15 18:58:36,583 - INFO - Completed all PUBOi ML model trainings.

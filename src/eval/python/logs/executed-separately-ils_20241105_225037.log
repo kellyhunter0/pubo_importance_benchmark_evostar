@@ -1,0 +1,1028 @@
+2024-11-05 22:50:37,286 - INFO - Selected instances to process: [1000]
+2024-11-05 22:50:37,288 - INFO - Processing Degree: deg2, Instance: 1000
+2024-11-05 22:50:37,292 - INFO -   Processing Run 1 for Instance 1000
+2024-11-05 22:50:37,294 - INFO - Instance 1000: Starting Linear Regression training.
+2024-11-05 22:50:37,295 - INFO - 
+Computing Linear Regression Models with SHAP...
+2024-11-05 22:50:37,301 - INFO - 
+LR R2 score for fold 1: 0.6738946
+2024-11-05 22:50:37,302 - INFO - Fold 1 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:50:40,328 - INFO - Fold 1 - LIME Explainer initialised.
+2024-11-05 22:50:41,638 - INFO - Fold 1 - LIME importances computed
+2024-11-05 22:50:41,639 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:50:45,668 - INFO - Fold 1 - PFI importances computed
+2024-11-05 22:50:46,111 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:50:46,132 - INFO - 
+LR R2 score for fold 2: 0.6894900
+2024-11-05 22:50:46,133 - INFO - Fold 2 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:50:47,095 - INFO - Fold 2 - LIME Explainer initialised.
+2024-11-05 22:50:48,407 - INFO - Fold 2 - LIME importances computed
+2024-11-05 22:50:48,408 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:50:49,259 - INFO - Fold 2 - PFI importances computed
+2024-11-05 22:50:49,659 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:50:49,681 - INFO - 
+LR R2 score for fold 3: 0.6436593
+2024-11-05 22:50:49,682 - INFO - Fold 3 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:50:50,612 - INFO - Fold 3 - LIME Explainer initialised.
+2024-11-05 22:50:52,103 - INFO - Fold 3 - LIME importances computed
+2024-11-05 22:50:52,103 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:50:52,158 - INFO - Fold 3 - PFI importances computed
+2024-11-05 22:50:52,592 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:50:52,628 - INFO - Instance 1000: Completed Linear Regression training.
+2024-11-05 22:50:52,628 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-05 22:50:52,629 - INFO - 
+Computing Random Forest models...
+2024-11-05 22:50:52,676 - INFO - 
+RF R2 score for fold 1: 0.9852293
+2024-11-05 22:50:56,479 - INFO - Fold 1 - LIME Explainer initialized.
+2024-11-05 22:50:59,049 - INFO - Fold 1 - LIME importances computed: [-3.03371682e+00 -2.70195955e+00 -3.53213035e+00 -3.38980744e+00
+ -2.36598003e-02  1.38646300e-02  1.10351627e-03 -1.08721628e-02
+ -3.00509501e-02  8.89556180e-03 -1.18674247e-02  3.13986100e-02
+ -3.02313283e-03 -2.85630441e-02]
+2024-11-05 22:50:59,051 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:50:59,265 - INFO - Fold 1 - PFI importances computed.
+2024-11-05 22:50:59,684 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:50:59,747 - INFO - 
+RF R2 score for fold 2: 0.9790318
+2024-11-05 22:51:03,904 - INFO - Fold 2 - LIME Explainer initialized.
+2024-11-05 22:51:06,692 - INFO - Fold 2 - LIME importances computed: [-3.45949625e+00 -2.95893614e+00 -3.78678030e+00 -3.16202130e+00
+ -2.13209100e-02  9.08772973e-03 -7.77413582e-04 -9.38251415e-03
+ -2.33990062e-02  2.22051199e-03 -1.16669906e-02  1.76726599e-02
+ -6.81878442e-03 -3.29328697e-02]
+2024-11-05 22:51:06,694 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:51:06,897 - INFO - Fold 2 - PFI importances computed.
+2024-11-05 22:51:07,301 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:51:07,359 - INFO - 
+RF R2 score for fold 3: 0.9924231
+2024-11-05 22:51:11,359 - INFO - Fold 3 - LIME Explainer initialized.
+2024-11-05 22:51:14,205 - INFO - Fold 3 - LIME importances computed: [-3.03319079e+00 -2.76834462e+00 -3.49941342e+00 -3.51647643e+00
+ -2.59832368e-02  1.27347393e-02 -1.16877059e-03 -1.63150938e-02
+ -2.27091773e-02  4.49384368e-03 -1.57669815e-02  3.23222220e-02
+ -5.81527121e-03 -2.44745620e-02]
+2024-11-05 22:51:14,206 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:51:14,401 - INFO - Fold 3 - PFI importances computed.
+2024-11-05 22:51:14,826 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:51:14,842 - INFO - Average Cross-Validation R2 Random Forest: 0.9855614126428343
+2024-11-05 22:51:14,844 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-05 22:51:14,845 - INFO - Instance 1000: Starting MLP training.
+2024-11-05 22:51:14,845 - INFO - 
+Computing MLP Regressor models...
+2024-11-05 22:51:17,439 - INFO - 
+MLP R2 score for fold 1: 0.9465173
+2024-11-05 22:51:17,440 - INFO - Fold 1 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:51:19,234 - INFO - Fold 1 - LIME Explainer initialised.
+2024-11-05 22:51:21,474 - INFO - Fold 1 - LIME importances computed
+2024-11-05 22:51:21,474 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:51:21,629 - INFO - Fold 1 - PFI importances computed.
+2024-11-05 22:51:22,021 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:51:24,302 - INFO - 
+MLP R2 score for fold 2: 0.9443854
+2024-11-05 22:51:24,304 - INFO - Fold 2 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:51:26,069 - INFO - Fold 2 - LIME Explainer initialised.
+2024-11-05 22:51:28,635 - INFO - Fold 2 - LIME importances computed
+2024-11-05 22:51:28,635 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:51:28,760 - INFO - Fold 2 - PFI importances computed.
+2024-11-05 22:51:29,170 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:51:31,953 - INFO - 
+MLP R2 score for fold 3: 0.9621741
+2024-11-05 22:51:31,955 - INFO - Fold 3 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:51:33,733 - INFO - Fold 3 - LIME Explainer initialised.
+2024-11-05 22:51:35,910 - INFO - Fold 3 - LIME importances computed
+2024-11-05 22:51:35,911 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:51:36,054 - INFO - Fold 3 - PFI importances computed.
+2024-11-05 22:51:36,470 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:51:36,491 - INFO - Instance 1000: Completed MLP training.
+2024-11-05 22:51:36,491 - INFO -   Processing Run 2 for Instance 1000
+2024-11-05 22:51:36,494 - INFO - Instance 1000: Starting Linear Regression training.
+2024-11-05 22:51:36,495 - INFO - 
+Computing Linear Regression Models with SHAP...
+2024-11-05 22:51:36,498 - INFO - 
+LR R2 score for fold 1: 0.6738946
+2024-11-05 22:51:36,499 - INFO - Fold 1 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:51:37,490 - INFO - Fold 1 - LIME Explainer initialised.
+2024-11-05 22:51:38,743 - INFO - Fold 1 - LIME importances computed
+2024-11-05 22:51:38,743 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:51:38,790 - INFO - Fold 1 - PFI importances computed
+2024-11-05 22:51:39,192 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:51:39,211 - INFO - 
+LR R2 score for fold 2: 0.6894900
+2024-11-05 22:51:39,213 - INFO - Fold 2 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:51:40,081 - INFO - Fold 2 - LIME Explainer initialised.
+2024-11-05 22:51:41,356 - INFO - Fold 2 - LIME importances computed
+2024-11-05 22:51:41,357 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:51:41,405 - INFO - Fold 2 - PFI importances computed
+2024-11-05 22:51:41,802 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:51:41,820 - INFO - 
+LR R2 score for fold 3: 0.6436593
+2024-11-05 22:51:41,821 - INFO - Fold 3 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:51:42,679 - INFO - Fold 3 - LIME Explainer initialised.
+2024-11-05 22:51:43,941 - INFO - Fold 3 - LIME importances computed
+2024-11-05 22:51:43,941 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:51:43,995 - INFO - Fold 3 - PFI importances computed
+2024-11-05 22:51:44,425 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:51:44,446 - INFO - Instance 1000: Completed Linear Regression training.
+2024-11-05 22:51:44,447 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-05 22:51:44,447 - INFO - 
+Computing Random Forest models...
+2024-11-05 22:51:44,496 - INFO - 
+RF R2 score for fold 1: 0.9852293
+2024-11-05 22:51:48,297 - INFO - Fold 1 - LIME Explainer initialized.
+2024-11-05 22:51:50,806 - INFO - Fold 1 - LIME importances computed: [-3.03371682e+00 -2.70195955e+00 -3.53213035e+00 -3.38980744e+00
+ -2.36598003e-02  1.38646300e-02  1.10351627e-03 -1.08721628e-02
+ -3.00509501e-02  8.89556180e-03 -1.18674247e-02  3.13986100e-02
+ -3.02313283e-03 -2.85630441e-02]
+2024-11-05 22:51:50,808 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:51:50,985 - INFO - Fold 1 - PFI importances computed.
+2024-11-05 22:51:51,387 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:51:51,442 - INFO - 
+RF R2 score for fold 2: 0.9790318
+2024-11-05 22:51:55,130 - INFO - Fold 2 - LIME Explainer initialized.
+2024-11-05 22:51:57,802 - INFO - Fold 2 - LIME importances computed: [-3.45949625e+00 -2.95893614e+00 -3.78678030e+00 -3.16202130e+00
+ -2.13209100e-02  9.08772973e-03 -7.77413582e-04 -9.38251415e-03
+ -2.33990062e-02  2.22051199e-03 -1.16669906e-02  1.76726599e-02
+ -6.81878442e-03 -3.29328697e-02]
+2024-11-05 22:51:57,803 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:51:57,994 - INFO - Fold 2 - PFI importances computed.
+2024-11-05 22:51:58,398 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:51:58,456 - INFO - 
+RF R2 score for fold 3: 0.9924231
+2024-11-05 22:52:02,319 - INFO - Fold 3 - LIME Explainer initialized.
+2024-11-05 22:52:05,002 - INFO - Fold 3 - LIME importances computed: [-3.03319079e+00 -2.76834462e+00 -3.49941342e+00 -3.51647643e+00
+ -2.59832368e-02  1.27347393e-02 -1.16877059e-03 -1.63150938e-02
+ -2.27091773e-02  4.49384368e-03 -1.57669815e-02  3.23222220e-02
+ -5.81527121e-03 -2.44745620e-02]
+2024-11-05 22:52:05,004 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:52:05,196 - INFO - Fold 3 - PFI importances computed.
+2024-11-05 22:52:05,588 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:52:05,604 - INFO - Average Cross-Validation R2 Random Forest: 0.9855614126428343
+2024-11-05 22:52:05,606 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-05 22:52:05,606 - INFO - Instance 1000: Starting MLP training.
+2024-11-05 22:52:05,607 - INFO - 
+Computing MLP Regressor models...
+2024-11-05 22:52:08,300 - INFO - 
+MLP R2 score for fold 1: 0.9465173
+2024-11-05 22:52:08,302 - INFO - Fold 1 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:52:10,154 - INFO - Fold 1 - LIME Explainer initialised.
+2024-11-05 22:52:12,417 - INFO - Fold 1 - LIME importances computed
+2024-11-05 22:52:12,417 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:52:12,547 - INFO - Fold 1 - PFI importances computed.
+2024-11-05 22:52:12,933 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:52:15,185 - INFO - 
+MLP R2 score for fold 2: 0.9443854
+2024-11-05 22:52:15,188 - INFO - Fold 2 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:52:16,973 - INFO - Fold 2 - LIME Explainer initialised.
+2024-11-05 22:52:19,156 - INFO - Fold 2 - LIME importances computed
+2024-11-05 22:52:19,157 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:52:19,275 - INFO - Fold 2 - PFI importances computed.
+2024-11-05 22:52:19,682 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:52:22,438 - INFO - 
+MLP R2 score for fold 3: 0.9621741
+2024-11-05 22:52:22,440 - INFO - Fold 3 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:52:24,227 - INFO - Fold 3 - LIME Explainer initialised.
+2024-11-05 22:52:26,323 - INFO - Fold 3 - LIME importances computed
+2024-11-05 22:52:26,324 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:52:26,473 - INFO - Fold 3 - PFI importances computed.
+2024-11-05 22:52:26,859 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:52:26,881 - INFO - Instance 1000: Completed MLP training.
+2024-11-05 22:52:26,882 - INFO -   Processing Run 3 for Instance 1000
+2024-11-05 22:52:26,883 - INFO - Instance 1000: Starting Linear Regression training.
+2024-11-05 22:52:26,885 - INFO - 
+Computing Linear Regression Models with SHAP...
+2024-11-05 22:52:26,889 - INFO - 
+LR R2 score for fold 1: 0.6738946
+2024-11-05 22:52:26,890 - INFO - Fold 1 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:52:27,739 - INFO - Fold 1 - LIME Explainer initialised.
+2024-11-05 22:52:29,006 - INFO - Fold 1 - LIME importances computed
+2024-11-05 22:52:29,007 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:52:29,055 - INFO - Fold 1 - PFI importances computed
+2024-11-05 22:52:29,577 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:52:29,596 - INFO - 
+LR R2 score for fold 2: 0.6894900
+2024-11-05 22:52:29,597 - INFO - Fold 2 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:52:30,408 - INFO - Fold 2 - LIME Explainer initialised.
+2024-11-05 22:52:31,720 - INFO - Fold 2 - LIME importances computed
+2024-11-05 22:52:31,721 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:52:31,772 - INFO - Fold 2 - PFI importances computed
+2024-11-05 22:52:32,175 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:52:32,193 - INFO - 
+LR R2 score for fold 3: 0.6436593
+2024-11-05 22:52:32,194 - INFO - Fold 3 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:52:33,024 - INFO - Fold 3 - LIME Explainer initialised.
+2024-11-05 22:52:34,275 - INFO - Fold 3 - LIME importances computed
+2024-11-05 22:52:34,275 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:52:34,328 - INFO - Fold 3 - PFI importances computed
+2024-11-05 22:52:34,773 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:52:34,795 - INFO - Instance 1000: Completed Linear Regression training.
+2024-11-05 22:52:34,796 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-05 22:52:34,797 - INFO - 
+Computing Random Forest models...
+2024-11-05 22:52:34,839 - INFO - 
+RF R2 score for fold 1: 0.9852293
+2024-11-05 22:52:38,630 - INFO - Fold 1 - LIME Explainer initialized.
+2024-11-05 22:52:41,246 - INFO - Fold 1 - LIME importances computed: [-3.03371682e+00 -2.70195955e+00 -3.53213035e+00 -3.38980744e+00
+ -2.36598003e-02  1.38646300e-02  1.10351627e-03 -1.08721628e-02
+ -3.00509501e-02  8.89556180e-03 -1.18674247e-02  3.13986100e-02
+ -3.02313283e-03 -2.85630441e-02]
+2024-11-05 22:52:41,248 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:52:41,431 - INFO - Fold 1 - PFI importances computed.
+2024-11-05 22:52:41,830 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:52:41,887 - INFO - 
+RF R2 score for fold 2: 0.9790318
+2024-11-05 22:52:45,600 - INFO - Fold 2 - LIME Explainer initialized.
+2024-11-05 22:52:48,346 - INFO - Fold 2 - LIME importances computed: [-3.45949625e+00 -2.95893614e+00 -3.78678030e+00 -3.16202130e+00
+ -2.13209100e-02  9.08772973e-03 -7.77413582e-04 -9.38251415e-03
+ -2.33990062e-02  2.22051199e-03 -1.16669906e-02  1.76726599e-02
+ -6.81878442e-03 -3.29328697e-02]
+2024-11-05 22:52:48,348 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:52:48,547 - INFO - Fold 2 - PFI importances computed.
+2024-11-05 22:52:48,924 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:52:48,988 - INFO - 
+RF R2 score for fold 3: 0.9924231
+2024-11-05 22:52:52,841 - INFO - Fold 3 - LIME Explainer initialized.
+2024-11-05 22:52:55,556 - INFO - Fold 3 - LIME importances computed: [-3.03319079e+00 -2.76834462e+00 -3.49941342e+00 -3.51647643e+00
+ -2.59832368e-02  1.27347393e-02 -1.16877059e-03 -1.63150938e-02
+ -2.27091773e-02  4.49384368e-03 -1.57669815e-02  3.23222220e-02
+ -5.81527121e-03 -2.44745620e-02]
+2024-11-05 22:52:55,557 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:52:55,745 - INFO - Fold 3 - PFI importances computed.
+2024-11-05 22:52:56,119 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:52:56,135 - INFO - Average Cross-Validation R2 Random Forest: 0.9855614126428343
+2024-11-05 22:52:56,137 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-05 22:52:56,137 - INFO - Instance 1000: Starting MLP training.
+2024-11-05 22:52:56,137 - INFO - 
+Computing MLP Regressor models...
+2024-11-05 22:52:58,698 - INFO - 
+MLP R2 score for fold 1: 0.9465173
+2024-11-05 22:52:58,700 - INFO - Fold 1 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:53:00,623 - INFO - Fold 1 - LIME Explainer initialised.
+2024-11-05 22:53:02,904 - INFO - Fold 1 - LIME importances computed
+2024-11-05 22:53:02,905 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:53:03,031 - INFO - Fold 1 - PFI importances computed.
+2024-11-05 22:53:03,435 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:53:05,740 - INFO - 
+MLP R2 score for fold 2: 0.9443854
+2024-11-05 22:53:05,742 - INFO - Fold 2 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:53:07,523 - INFO - Fold 2 - LIME Explainer initialised.
+2024-11-05 22:53:09,922 - INFO - Fold 2 - LIME importances computed
+2024-11-05 22:53:09,923 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:53:10,051 - INFO - Fold 2 - PFI importances computed.
+2024-11-05 22:53:10,455 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:53:13,121 - INFO - 
+MLP R2 score for fold 3: 0.9621741
+2024-11-05 22:53:13,122 - INFO - Fold 3 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:53:14,926 - INFO - Fold 3 - LIME Explainer initialised.
+2024-11-05 22:53:16,986 - INFO - Fold 3 - LIME importances computed
+2024-11-05 22:53:16,986 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:53:17,109 - INFO - Fold 3 - PFI importances computed.
+2024-11-05 22:53:17,508 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:53:17,529 - INFO - Instance 1000: Completed MLP training.
+2024-11-05 22:53:17,530 - INFO -   Processing Run 4 for Instance 1000
+2024-11-05 22:53:17,532 - INFO - Instance 1000: Starting Linear Regression training.
+2024-11-05 22:53:17,533 - INFO - 
+Computing Linear Regression Models with SHAP...
+2024-11-05 22:53:17,536 - INFO - 
+LR R2 score for fold 1: 0.6738946
+2024-11-05 22:53:17,537 - INFO - Fold 1 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:53:18,338 - INFO - Fold 1 - LIME Explainer initialised.
+2024-11-05 22:53:19,522 - INFO - Fold 1 - LIME importances computed
+2024-11-05 22:53:19,523 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:53:19,575 - INFO - Fold 1 - PFI importances computed
+2024-11-05 22:53:19,961 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:53:19,980 - INFO - 
+LR R2 score for fold 2: 0.6894900
+2024-11-05 22:53:19,981 - INFO - Fold 2 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:53:20,806 - INFO - Fold 2 - LIME Explainer initialised.
+2024-11-05 22:53:21,987 - INFO - Fold 2 - LIME importances computed
+2024-11-05 22:53:21,987 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:53:22,037 - INFO - Fold 2 - PFI importances computed
+2024-11-05 22:53:22,560 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:53:22,578 - INFO - 
+LR R2 score for fold 3: 0.6436593
+2024-11-05 22:53:22,579 - INFO - Fold 3 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:53:23,379 - INFO - Fold 3 - LIME Explainer initialised.
+2024-11-05 22:53:24,601 - INFO - Fold 3 - LIME importances computed
+2024-11-05 22:53:24,602 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:53:24,651 - INFO - Fold 3 - PFI importances computed
+2024-11-05 22:53:25,082 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:53:25,106 - INFO - Instance 1000: Completed Linear Regression training.
+2024-11-05 22:53:25,106 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-05 22:53:25,107 - INFO - 
+Computing Random Forest models...
+2024-11-05 22:53:25,149 - INFO - 
+RF R2 score for fold 1: 0.9852293
+2024-11-05 22:53:28,912 - INFO - Fold 1 - LIME Explainer initialized.
+2024-11-05 22:53:31,590 - INFO - Fold 1 - LIME importances computed: [-3.03371682e+00 -2.70195955e+00 -3.53213035e+00 -3.38980744e+00
+ -2.36598003e-02  1.38646300e-02  1.10351627e-03 -1.08721628e-02
+ -3.00509501e-02  8.89556180e-03 -1.18674247e-02  3.13986100e-02
+ -3.02313283e-03 -2.85630441e-02]
+2024-11-05 22:53:31,594 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:53:31,801 - INFO - Fold 1 - PFI importances computed.
+2024-11-05 22:53:32,195 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:53:32,252 - INFO - 
+RF R2 score for fold 2: 0.9790318
+2024-11-05 22:53:36,074 - INFO - Fold 2 - LIME Explainer initialized.
+2024-11-05 22:53:38,893 - INFO - Fold 2 - LIME importances computed: [-3.45949625e+00 -2.95893614e+00 -3.78678030e+00 -3.16202130e+00
+ -2.13209100e-02  9.08772973e-03 -7.77413582e-04 -9.38251415e-03
+ -2.33990062e-02  2.22051199e-03 -1.16669906e-02  1.76726599e-02
+ -6.81878442e-03 -3.29328697e-02]
+2024-11-05 22:53:38,894 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:53:39,094 - INFO - Fold 2 - PFI importances computed.
+2024-11-05 22:53:39,506 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:53:39,564 - INFO - 
+RF R2 score for fold 3: 0.9924231
+2024-11-05 22:53:43,369 - INFO - Fold 3 - LIME Explainer initialized.
+2024-11-05 22:53:45,983 - INFO - Fold 3 - LIME importances computed: [-3.03319079e+00 -2.76834462e+00 -3.49941342e+00 -3.51647643e+00
+ -2.59832368e-02  1.27347393e-02 -1.16877059e-03 -1.63150938e-02
+ -2.27091773e-02  4.49384368e-03 -1.57669815e-02  3.23222220e-02
+ -5.81527121e-03 -2.44745620e-02]
+2024-11-05 22:53:45,984 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:53:46,166 - INFO - Fold 3 - PFI importances computed.
+2024-11-05 22:53:46,576 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:53:46,592 - INFO - Average Cross-Validation R2 Random Forest: 0.9855614126428343
+2024-11-05 22:53:46,594 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-05 22:53:46,594 - INFO - Instance 1000: Starting MLP training.
+2024-11-05 22:53:46,595 - INFO - 
+Computing MLP Regressor models...
+2024-11-05 22:53:49,242 - INFO - 
+MLP R2 score for fold 1: 0.9465173
+2024-11-05 22:53:49,244 - INFO - Fold 1 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:53:51,166 - INFO - Fold 1 - LIME Explainer initialised.
+2024-11-05 22:53:53,494 - INFO - Fold 1 - LIME importances computed
+2024-11-05 22:53:53,495 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:53:53,626 - INFO - Fold 1 - PFI importances computed.
+2024-11-05 22:53:54,027 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:53:56,395 - INFO - 
+MLP R2 score for fold 2: 0.9443854
+2024-11-05 22:53:56,397 - INFO - Fold 2 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:53:58,192 - INFO - Fold 2 - LIME Explainer initialised.
+2024-11-05 22:54:00,301 - INFO - Fold 2 - LIME importances computed
+2024-11-05 22:54:00,301 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:54:00,428 - INFO - Fold 2 - PFI importances computed.
+2024-11-05 22:54:00,808 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:54:03,470 - INFO - 
+MLP R2 score for fold 3: 0.9621741
+2024-11-05 22:54:03,472 - INFO - Fold 3 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:54:05,200 - INFO - Fold 3 - LIME Explainer initialised.
+2024-11-05 22:54:07,245 - INFO - Fold 3 - LIME importances computed
+2024-11-05 22:54:07,246 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:54:07,374 - INFO - Fold 3 - PFI importances computed.
+2024-11-05 22:54:07,760 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:54:07,782 - INFO - Instance 1000: Completed MLP training.
+2024-11-05 22:54:07,782 - INFO -   Processing Run 5 for Instance 1000
+2024-11-05 22:54:07,784 - INFO - Instance 1000: Starting Linear Regression training.
+2024-11-05 22:54:07,785 - INFO - 
+Computing Linear Regression Models with SHAP...
+2024-11-05 22:54:07,789 - INFO - 
+LR R2 score for fold 1: 0.6738946
+2024-11-05 22:54:07,791 - INFO - Fold 1 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:54:08,642 - INFO - Fold 1 - LIME Explainer initialised.
+2024-11-05 22:54:09,872 - INFO - Fold 1 - LIME importances computed
+2024-11-05 22:54:09,872 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:54:09,923 - INFO - Fold 1 - PFI importances computed
+2024-11-05 22:54:10,322 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:54:10,341 - INFO - 
+LR R2 score for fold 2: 0.6894900
+2024-11-05 22:54:10,341 - INFO - Fold 2 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:54:11,164 - INFO - Fold 2 - LIME Explainer initialised.
+2024-11-05 22:54:12,424 - INFO - Fold 2 - LIME importances computed
+2024-11-05 22:54:12,425 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:54:12,476 - INFO - Fold 2 - PFI importances computed
+2024-11-05 22:54:12,865 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:54:12,883 - INFO - 
+LR R2 score for fold 3: 0.6436593
+2024-11-05 22:54:12,884 - INFO - Fold 3 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:54:13,702 - INFO - Fold 3 - LIME Explainer initialised.
+2024-11-05 22:54:14,894 - INFO - Fold 3 - LIME importances computed
+2024-11-05 22:54:14,894 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:54:14,939 - INFO - Fold 3 - PFI importances computed
+2024-11-05 22:54:15,495 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:54:15,518 - INFO - Instance 1000: Completed Linear Regression training.
+2024-11-05 22:54:15,518 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-05 22:54:15,519 - INFO - 
+Computing Random Forest models...
+2024-11-05 22:54:15,560 - INFO - 
+RF R2 score for fold 1: 0.9852293
+2024-11-05 22:54:19,776 - INFO - Fold 1 - LIME Explainer initialized.
+2024-11-05 22:54:22,779 - INFO - Fold 1 - LIME importances computed: [-3.03371682e+00 -2.70195955e+00 -3.53213035e+00 -3.38980744e+00
+ -2.36598003e-02  1.38646300e-02  1.10351627e-03 -1.08721628e-02
+ -3.00509501e-02  8.89556180e-03 -1.18674247e-02  3.13986100e-02
+ -3.02313283e-03 -2.85630441e-02]
+2024-11-05 22:54:22,780 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:54:23,007 - INFO - Fold 1 - PFI importances computed.
+2024-11-05 22:54:23,399 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:54:23,459 - INFO - 
+RF R2 score for fold 2: 0.9790318
+2024-11-05 22:54:27,763 - INFO - Fold 2 - LIME Explainer initialized.
+2024-11-05 22:54:30,787 - INFO - Fold 2 - LIME importances computed: [-3.45949625e+00 -2.95893614e+00 -3.78678030e+00 -3.16202130e+00
+ -2.13209100e-02  9.08772973e-03 -7.77413582e-04 -9.38251415e-03
+ -2.33990062e-02  2.22051199e-03 -1.16669906e-02  1.76726599e-02
+ -6.81878442e-03 -3.29328697e-02]
+2024-11-05 22:54:30,789 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:54:31,018 - INFO - Fold 2 - PFI importances computed.
+2024-11-05 22:54:31,494 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:54:31,556 - INFO - 
+RF R2 score for fold 3: 0.9924231
+2024-11-05 22:54:35,837 - INFO - Fold 3 - LIME Explainer initialized.
+2024-11-05 22:54:38,833 - INFO - Fold 3 - LIME importances computed: [-3.03319079e+00 -2.76834462e+00 -3.49941342e+00 -3.51647643e+00
+ -2.59832368e-02  1.27347393e-02 -1.16877059e-03 -1.63150938e-02
+ -2.27091773e-02  4.49384368e-03 -1.57669815e-02  3.23222220e-02
+ -5.81527121e-03 -2.44745620e-02]
+2024-11-05 22:54:38,834 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:54:39,040 - INFO - Fold 3 - PFI importances computed.
+2024-11-05 22:54:39,470 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:54:39,488 - INFO - Average Cross-Validation R2 Random Forest: 0.9855614126428343
+2024-11-05 22:54:39,491 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-05 22:54:39,491 - INFO - Instance 1000: Starting MLP training.
+2024-11-05 22:54:39,492 - INFO - 
+Computing MLP Regressor models...
+2024-11-05 22:54:42,505 - INFO - 
+MLP R2 score for fold 1: 0.9465173
+2024-11-05 22:54:42,507 - INFO - Fold 1 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:54:44,578 - INFO - Fold 1 - LIME Explainer initialised.
+2024-11-05 22:54:47,063 - INFO - Fold 1 - LIME importances computed
+2024-11-05 22:54:47,063 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:54:47,214 - INFO - Fold 1 - PFI importances computed.
+2024-11-05 22:54:47,660 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:54:50,269 - INFO - 
+MLP R2 score for fold 2: 0.9443854
+2024-11-05 22:54:50,271 - INFO - Fold 2 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:54:52,315 - INFO - Fold 2 - LIME Explainer initialised.
+2024-11-05 22:54:54,895 - INFO - Fold 2 - LIME importances computed
+2024-11-05 22:54:54,895 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:54:55,041 - INFO - Fold 2 - PFI importances computed.
+2024-11-05 22:54:55,516 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:54:58,678 - INFO - 
+MLP R2 score for fold 3: 0.9621741
+2024-11-05 22:54:58,679 - INFO - Fold 3 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:55:00,809 - INFO - Fold 3 - LIME Explainer initialised.
+2024-11-05 22:55:03,341 - INFO - Fold 3 - LIME importances computed
+2024-11-05 22:55:03,342 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:55:03,526 - INFO - Fold 3 - PFI importances computed.
+2024-11-05 22:55:04,010 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:55:04,033 - INFO - Instance 1000: Completed MLP training.
+2024-11-05 22:55:04,033 - INFO -   Processing Run 6 for Instance 1000
+2024-11-05 22:55:04,035 - INFO - Instance 1000: Starting Linear Regression training.
+2024-11-05 22:55:04,036 - INFO - 
+Computing Linear Regression Models with SHAP...
+2024-11-05 22:55:04,041 - INFO - 
+LR R2 score for fold 1: 0.6738946
+2024-11-05 22:55:04,042 - INFO - Fold 1 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:55:05,032 - INFO - Fold 1 - LIME Explainer initialised.
+2024-11-05 22:55:06,475 - INFO - Fold 1 - LIME importances computed
+2024-11-05 22:55:06,475 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:55:06,536 - INFO - Fold 1 - PFI importances computed
+2024-11-05 22:55:07,019 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:55:07,044 - INFO - 
+LR R2 score for fold 2: 0.6894900
+2024-11-05 22:55:07,045 - INFO - Fold 2 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:55:08,076 - INFO - Fold 2 - LIME Explainer initialised.
+2024-11-05 22:55:09,550 - INFO - Fold 2 - LIME importances computed
+2024-11-05 22:55:09,550 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:55:09,621 - INFO - Fold 2 - PFI importances computed
+2024-11-05 22:55:10,102 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:55:10,124 - INFO - 
+LR R2 score for fold 3: 0.6436593
+2024-11-05 22:55:10,125 - INFO - Fold 3 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:55:11,128 - INFO - Fold 3 - LIME Explainer initialised.
+2024-11-05 22:55:12,581 - INFO - Fold 3 - LIME importances computed
+2024-11-05 22:55:12,581 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:55:12,651 - INFO - Fold 3 - PFI importances computed
+2024-11-05 22:55:13,129 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:55:13,157 - INFO - Instance 1000: Completed Linear Regression training.
+2024-11-05 22:55:13,157 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-05 22:55:13,158 - INFO - 
+Computing Random Forest models...
+2024-11-05 22:55:13,215 - INFO - 
+RF R2 score for fold 1: 0.9852293
+2024-11-05 22:55:17,746 - INFO - Fold 1 - LIME Explainer initialized.
+2024-11-05 22:55:20,768 - INFO - Fold 1 - LIME importances computed: [-3.03371682e+00 -2.70195955e+00 -3.53213035e+00 -3.38980744e+00
+ -2.36598003e-02  1.38646300e-02  1.10351627e-03 -1.08721628e-02
+ -3.00509501e-02  8.89556180e-03 -1.18674247e-02  3.13986100e-02
+ -3.02313283e-03 -2.85630441e-02]
+2024-11-05 22:55:20,769 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:55:20,988 - INFO - Fold 1 - PFI importances computed.
+2024-11-05 22:55:21,440 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:55:21,501 - INFO - 
+RF R2 score for fold 2: 0.9790318
+2024-11-05 22:55:25,915 - INFO - Fold 2 - LIME Explainer initialized.
+2024-11-05 22:55:28,936 - INFO - Fold 2 - LIME importances computed: [-3.45949625e+00 -2.95893614e+00 -3.78678030e+00 -3.16202130e+00
+ -2.13209100e-02  9.08772973e-03 -7.77413582e-04 -9.38251415e-03
+ -2.33990062e-02  2.22051199e-03 -1.16669906e-02  1.76726599e-02
+ -6.81878442e-03 -3.29328697e-02]
+2024-11-05 22:55:28,937 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:55:29,153 - INFO - Fold 2 - PFI importances computed.
+2024-11-05 22:55:29,605 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:55:29,668 - INFO - 
+RF R2 score for fold 3: 0.9924231
+2024-11-05 22:55:34,080 - INFO - Fold 3 - LIME Explainer initialized.
+2024-11-05 22:55:37,080 - INFO - Fold 3 - LIME importances computed: [-3.03319079e+00 -2.76834462e+00 -3.49941342e+00 -3.51647643e+00
+ -2.59832368e-02  1.27347393e-02 -1.16877059e-03 -1.63150938e-02
+ -2.27091773e-02  4.49384368e-03 -1.57669815e-02  3.23222220e-02
+ -5.81527121e-03 -2.44745620e-02]
+2024-11-05 22:55:37,082 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:55:37,309 - INFO - Fold 3 - PFI importances computed.
+2024-11-05 22:55:37,769 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:55:37,785 - INFO - Average Cross-Validation R2 Random Forest: 0.9855614126428343
+2024-11-05 22:55:37,788 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-05 22:55:37,788 - INFO - Instance 1000: Starting MLP training.
+2024-11-05 22:55:37,789 - INFO - 
+Computing MLP Regressor models...
+2024-11-05 22:55:40,776 - INFO - 
+MLP R2 score for fold 1: 0.9465173
+2024-11-05 22:55:40,777 - INFO - Fold 1 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:55:42,847 - INFO - Fold 1 - LIME Explainer initialised.
+2024-11-05 22:55:45,351 - INFO - Fold 1 - LIME importances computed
+2024-11-05 22:55:45,351 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:55:45,503 - INFO - Fold 1 - PFI importances computed.
+2024-11-05 22:55:45,940 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:55:48,531 - INFO - 
+MLP R2 score for fold 2: 0.9443854
+2024-11-05 22:55:48,533 - INFO - Fold 2 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:55:50,585 - INFO - Fold 2 - LIME Explainer initialised.
+2024-11-05 22:55:53,043 - INFO - Fold 2 - LIME importances computed
+2024-11-05 22:55:53,043 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:55:53,183 - INFO - Fold 2 - PFI importances computed.
+2024-11-05 22:55:53,648 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:55:56,753 - INFO - 
+MLP R2 score for fold 3: 0.9621741
+2024-11-05 22:55:56,755 - INFO - Fold 3 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:55:58,790 - INFO - Fold 3 - LIME Explainer initialised.
+2024-11-05 22:56:01,277 - INFO - Fold 3 - LIME importances computed
+2024-11-05 22:56:01,277 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:56:01,433 - INFO - Fold 3 - PFI importances computed.
+2024-11-05 22:56:01,883 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:56:01,909 - INFO - Instance 1000: Completed MLP training.
+2024-11-05 22:56:01,909 - INFO -   Processing Run 7 for Instance 1000
+2024-11-05 22:56:01,912 - INFO - Instance 1000: Starting Linear Regression training.
+2024-11-05 22:56:01,913 - INFO - 
+Computing Linear Regression Models with SHAP...
+2024-11-05 22:56:01,916 - INFO - 
+LR R2 score for fold 1: 0.6738946
+2024-11-05 22:56:01,917 - INFO - Fold 1 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:56:02,837 - INFO - Fold 1 - LIME Explainer initialised.
+2024-11-05 22:56:04,273 - INFO - Fold 1 - LIME importances computed
+2024-11-05 22:56:04,273 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:56:04,343 - INFO - Fold 1 - PFI importances computed
+2024-11-05 22:56:04,810 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:56:04,832 - INFO - 
+LR R2 score for fold 2: 0.6894900
+2024-11-05 22:56:04,833 - INFO - Fold 2 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:56:05,719 - INFO - Fold 2 - LIME Explainer initialised.
+2024-11-05 22:56:07,130 - INFO - Fold 2 - LIME importances computed
+2024-11-05 22:56:07,130 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:56:07,198 - INFO - Fold 2 - PFI importances computed
+2024-11-05 22:56:07,650 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:56:07,671 - INFO - 
+LR R2 score for fold 3: 0.6436593
+2024-11-05 22:56:07,672 - INFO - Fold 3 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:56:08,658 - INFO - Fold 3 - LIME Explainer initialised.
+2024-11-05 22:56:10,059 - INFO - Fold 3 - LIME importances computed
+2024-11-05 22:56:10,060 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:56:10,126 - INFO - Fold 3 - PFI importances computed
+2024-11-05 22:56:10,624 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:56:10,650 - INFO - Instance 1000: Completed Linear Regression training.
+2024-11-05 22:56:10,650 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-05 22:56:10,651 - INFO - 
+Computing Random Forest models...
+2024-11-05 22:56:10,702 - INFO - 
+RF R2 score for fold 1: 0.9852293
+2024-11-05 22:56:15,193 - INFO - Fold 1 - LIME Explainer initialized.
+2024-11-05 22:56:18,203 - INFO - Fold 1 - LIME importances computed: [-3.03371682e+00 -2.70195955e+00 -3.53213035e+00 -3.38980744e+00
+ -2.36598003e-02  1.38646300e-02  1.10351627e-03 -1.08721628e-02
+ -3.00509501e-02  8.89556180e-03 -1.18674247e-02  3.13986100e-02
+ -3.02313283e-03 -2.85630441e-02]
+2024-11-05 22:56:18,205 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:56:18,427 - INFO - Fold 1 - PFI importances computed.
+2024-11-05 22:56:18,873 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:56:18,946 - INFO - 
+RF R2 score for fold 2: 0.9790318
+2024-11-05 22:56:23,286 - INFO - Fold 2 - LIME Explainer initialized.
+2024-11-05 22:56:26,296 - INFO - Fold 2 - LIME importances computed: [-3.45949625e+00 -2.95893614e+00 -3.78678030e+00 -3.16202130e+00
+ -2.13209100e-02  9.08772973e-03 -7.77413582e-04 -9.38251415e-03
+ -2.33990062e-02  2.22051199e-03 -1.16669906e-02  1.76726599e-02
+ -6.81878442e-03 -3.29328697e-02]
+2024-11-05 22:56:26,297 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:56:26,517 - INFO - Fold 2 - PFI importances computed.
+2024-11-05 22:56:26,975 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:56:27,042 - INFO - 
+RF R2 score for fold 3: 0.9924231
+2024-11-05 22:56:31,360 - INFO - Fold 3 - LIME Explainer initialized.
+2024-11-05 22:56:34,369 - INFO - Fold 3 - LIME importances computed: [-3.03319079e+00 -2.76834462e+00 -3.49941342e+00 -3.51647643e+00
+ -2.59832368e-02  1.27347393e-02 -1.16877059e-03 -1.63150938e-02
+ -2.27091773e-02  4.49384368e-03 -1.57669815e-02  3.23222220e-02
+ -5.81527121e-03 -2.44745620e-02]
+2024-11-05 22:56:34,370 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:56:34,579 - INFO - Fold 3 - PFI importances computed.
+2024-11-05 22:56:35,004 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:56:35,020 - INFO - Average Cross-Validation R2 Random Forest: 0.9855614126428343
+2024-11-05 22:56:35,021 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-05 22:56:35,022 - INFO - Instance 1000: Starting MLP training.
+2024-11-05 22:56:35,022 - INFO - 
+Computing MLP Regressor models...
+2024-11-05 22:56:37,999 - INFO - 
+MLP R2 score for fold 1: 0.9465173
+2024-11-05 22:56:38,001 - INFO - Fold 1 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:56:40,065 - INFO - Fold 1 - LIME Explainer initialised.
+2024-11-05 22:56:42,581 - INFO - Fold 1 - LIME importances computed
+2024-11-05 22:56:42,582 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:56:42,734 - INFO - Fold 1 - PFI importances computed.
+2024-11-05 22:56:43,159 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:56:45,789 - INFO - 
+MLP R2 score for fold 2: 0.9443854
+2024-11-05 22:56:45,791 - INFO - Fold 2 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:56:47,826 - INFO - Fold 2 - LIME Explainer initialised.
+2024-11-05 22:56:52,506 - INFO - Fold 2 - LIME importances computed
+2024-11-05 22:56:52,510 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:56:52,686 - INFO - Fold 2 - PFI importances computed.
+2024-11-05 22:56:53,452 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:56:56,530 - INFO - 
+MLP R2 score for fold 3: 0.9621741
+2024-11-05 22:56:56,532 - INFO - Fold 3 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:56:58,219 - INFO - Fold 3 - LIME Explainer initialised.
+2024-11-05 22:57:00,331 - INFO - Fold 3 - LIME importances computed
+2024-11-05 22:57:00,332 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:57:00,464 - INFO - Fold 3 - PFI importances computed.
+2024-11-05 22:57:00,840 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:57:00,861 - INFO - Instance 1000: Completed MLP training.
+2024-11-05 22:57:00,861 - INFO -   Processing Run 8 for Instance 1000
+2024-11-05 22:57:00,863 - INFO - Instance 1000: Starting Linear Regression training.
+2024-11-05 22:57:00,864 - INFO - 
+Computing Linear Regression Models with SHAP...
+2024-11-05 22:57:00,867 - INFO - 
+LR R2 score for fold 1: 0.6738946
+2024-11-05 22:57:00,868 - INFO - Fold 1 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:57:01,686 - INFO - Fold 1 - LIME Explainer initialised.
+2024-11-05 22:57:02,870 - INFO - Fold 1 - LIME importances computed
+2024-11-05 22:57:02,871 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:57:02,918 - INFO - Fold 1 - PFI importances computed
+2024-11-05 22:57:03,310 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:57:03,329 - INFO - 
+LR R2 score for fold 2: 0.6894900
+2024-11-05 22:57:03,330 - INFO - Fold 2 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:57:04,131 - INFO - Fold 2 - LIME Explainer initialised.
+2024-11-05 22:57:05,383 - INFO - Fold 2 - LIME importances computed
+2024-11-05 22:57:05,384 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:57:05,432 - INFO - Fold 2 - PFI importances computed
+2024-11-05 22:57:05,826 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:57:05,843 - INFO - 
+LR R2 score for fold 3: 0.6436593
+2024-11-05 22:57:05,844 - INFO - Fold 3 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:57:06,722 - INFO - Fold 3 - LIME Explainer initialised.
+2024-11-05 22:57:07,990 - INFO - Fold 3 - LIME importances computed
+2024-11-05 22:57:07,991 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:57:08,041 - INFO - Fold 3 - PFI importances computed
+2024-11-05 22:57:08,467 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:57:08,493 - INFO - Instance 1000: Completed Linear Regression training.
+2024-11-05 22:57:08,493 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-05 22:57:08,495 - INFO - 
+Computing Random Forest models...
+2024-11-05 22:57:08,563 - INFO - 
+RF R2 score for fold 1: 0.9852293
+2024-11-05 22:57:12,337 - INFO - Fold 1 - LIME Explainer initialized.
+2024-11-05 22:57:14,959 - INFO - Fold 1 - LIME importances computed: [-3.03371682e+00 -2.70195955e+00 -3.53213035e+00 -3.38980744e+00
+ -2.36598003e-02  1.38646300e-02  1.10351627e-03 -1.08721628e-02
+ -3.00509501e-02  8.89556180e-03 -1.18674247e-02  3.13986100e-02
+ -3.02313283e-03 -2.85630441e-02]
+2024-11-05 22:57:14,960 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:57:15,154 - INFO - Fold 1 - PFI importances computed.
+2024-11-05 22:57:15,687 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:57:15,743 - INFO - 
+RF R2 score for fold 2: 0.9790318
+2024-11-05 22:57:19,453 - INFO - Fold 2 - LIME Explainer initialized.
+2024-11-05 22:57:22,108 - INFO - Fold 2 - LIME importances computed: [-3.45949625e+00 -2.95893614e+00 -3.78678030e+00 -3.16202130e+00
+ -2.13209100e-02  9.08772973e-03 -7.77413582e-04 -9.38251415e-03
+ -2.33990062e-02  2.22051199e-03 -1.16669906e-02  1.76726599e-02
+ -6.81878442e-03 -3.29328697e-02]
+2024-11-05 22:57:22,110 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:57:22,294 - INFO - Fold 2 - PFI importances computed.
+2024-11-05 22:57:22,688 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:57:22,744 - INFO - 
+RF R2 score for fold 3: 0.9924231
+2024-11-05 22:57:26,487 - INFO - Fold 3 - LIME Explainer initialized.
+2024-11-05 22:57:29,092 - INFO - Fold 3 - LIME importances computed: [-3.03319079e+00 -2.76834462e+00 -3.49941342e+00 -3.51647643e+00
+ -2.59832368e-02  1.27347393e-02 -1.16877059e-03 -1.63150938e-02
+ -2.27091773e-02  4.49384368e-03 -1.57669815e-02  3.23222220e-02
+ -5.81527121e-03 -2.44745620e-02]
+2024-11-05 22:57:29,093 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:57:29,268 - INFO - Fold 3 - PFI importances computed.
+2024-11-05 22:57:29,675 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:57:29,691 - INFO - Average Cross-Validation R2 Random Forest: 0.9855614126428343
+2024-11-05 22:57:29,693 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-05 22:57:29,693 - INFO - Instance 1000: Starting MLP training.
+2024-11-05 22:57:29,694 - INFO - 
+Computing MLP Regressor models...
+2024-11-05 22:57:32,207 - INFO - 
+MLP R2 score for fold 1: 0.9465173
+2024-11-05 22:57:32,209 - INFO - Fold 1 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:57:34,012 - INFO - Fold 1 - LIME Explainer initialised.
+2024-11-05 22:57:36,128 - INFO - Fold 1 - LIME importances computed
+2024-11-05 22:57:36,129 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:57:36,276 - INFO - Fold 1 - PFI importances computed.
+2024-11-05 22:57:36,668 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:57:39,022 - INFO - 
+MLP R2 score for fold 2: 0.9443854
+2024-11-05 22:57:39,024 - INFO - Fold 2 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:57:40,918 - INFO - Fold 2 - LIME Explainer initialised.
+2024-11-05 22:57:43,105 - INFO - Fold 2 - LIME importances computed
+2024-11-05 22:57:43,105 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:57:43,240 - INFO - Fold 2 - PFI importances computed.
+2024-11-05 22:57:43,632 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:57:46,318 - INFO - 
+MLP R2 score for fold 3: 0.9621741
+2024-11-05 22:57:46,320 - INFO - Fold 3 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:57:48,110 - INFO - Fold 3 - LIME Explainer initialised.
+2024-11-05 22:57:50,267 - INFO - Fold 3 - LIME importances computed
+2024-11-05 22:57:50,267 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:57:50,399 - INFO - Fold 3 - PFI importances computed.
+2024-11-05 22:57:50,788 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:57:50,810 - INFO - Instance 1000: Completed MLP training.
+2024-11-05 22:57:50,810 - INFO -   Processing Run 9 for Instance 1000
+2024-11-05 22:57:50,812 - INFO - Instance 1000: Starting Linear Regression training.
+2024-11-05 22:57:50,813 - INFO - 
+Computing Linear Regression Models with SHAP...
+2024-11-05 22:57:50,816 - INFO - 
+LR R2 score for fold 1: 0.6738946
+2024-11-05 22:57:50,817 - INFO - Fold 1 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:57:51,632 - INFO - Fold 1 - LIME Explainer initialised.
+2024-11-05 22:57:52,875 - INFO - Fold 1 - LIME importances computed
+2024-11-05 22:57:52,875 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:57:52,930 - INFO - Fold 1 - PFI importances computed
+2024-11-05 22:57:53,336 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:57:53,353 - INFO - 
+LR R2 score for fold 2: 0.6894900
+2024-11-05 22:57:53,354 - INFO - Fold 2 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:57:54,212 - INFO - Fold 2 - LIME Explainer initialised.
+2024-11-05 22:57:55,476 - INFO - Fold 2 - LIME importances computed
+2024-11-05 22:57:55,476 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:57:55,528 - INFO - Fold 2 - PFI importances computed
+2024-11-05 22:57:55,934 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:57:55,953 - INFO - 
+LR R2 score for fold 3: 0.6436593
+2024-11-05 22:57:55,954 - INFO - Fold 3 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:57:56,779 - INFO - Fold 3 - LIME Explainer initialised.
+2024-11-05 22:57:58,002 - INFO - Fold 3 - LIME importances computed
+2024-11-05 22:57:58,003 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:57:58,057 - INFO - Fold 3 - PFI importances computed
+2024-11-05 22:57:58,488 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:57:58,511 - INFO - Instance 1000: Completed Linear Regression training.
+2024-11-05 22:57:58,511 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-05 22:57:58,512 - INFO - 
+Computing Random Forest models...
+2024-11-05 22:57:58,554 - INFO - 
+RF R2 score for fold 1: 0.9852293
+2024-11-05 22:58:02,243 - INFO - Fold 1 - LIME Explainer initialized.
+2024-11-05 22:58:04,789 - INFO - Fold 1 - LIME importances computed: [-3.03371682e+00 -2.70195955e+00 -3.53213035e+00 -3.38980744e+00
+ -2.36598003e-02  1.38646300e-02  1.10351627e-03 -1.08721628e-02
+ -3.00509501e-02  8.89556180e-03 -1.18674247e-02  3.13986100e-02
+ -3.02313283e-03 -2.85630441e-02]
+2024-11-05 22:58:04,790 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:58:04,978 - INFO - Fold 1 - PFI importances computed.
+2024-11-05 22:58:05,355 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:58:05,410 - INFO - 
+RF R2 score for fold 2: 0.9790318
+2024-11-05 22:58:09,185 - INFO - Fold 2 - LIME Explainer initialized.
+2024-11-05 22:58:11,752 - INFO - Fold 2 - LIME importances computed: [-3.45949625e+00 -2.95893614e+00 -3.78678030e+00 -3.16202130e+00
+ -2.13209100e-02  9.08772973e-03 -7.77413582e-04 -9.38251415e-03
+ -2.33990062e-02  2.22051199e-03 -1.16669906e-02  1.76726599e-02
+ -6.81878442e-03 -3.29328697e-02]
+2024-11-05 22:58:11,753 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:58:11,936 - INFO - Fold 2 - PFI importances computed.
+2024-11-05 22:58:12,313 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:58:12,378 - INFO - 
+RF R2 score for fold 3: 0.9924231
+2024-11-05 22:58:16,054 - INFO - Fold 3 - LIME Explainer initialized.
+2024-11-05 22:58:18,644 - INFO - Fold 3 - LIME importances computed: [-3.03319079e+00 -2.76834462e+00 -3.49941342e+00 -3.51647643e+00
+ -2.59832368e-02  1.27347393e-02 -1.16877059e-03 -1.63150938e-02
+ -2.27091773e-02  4.49384368e-03 -1.57669815e-02  3.23222220e-02
+ -5.81527121e-03 -2.44745620e-02]
+2024-11-05 22:58:18,644 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:58:18,826 - INFO - Fold 3 - PFI importances computed.
+2024-11-05 22:58:19,210 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:58:19,225 - INFO - Average Cross-Validation R2 Random Forest: 0.9855614126428343
+2024-11-05 22:58:19,228 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-05 22:58:19,228 - INFO - Instance 1000: Starting MLP training.
+2024-11-05 22:58:19,229 - INFO - 
+Computing MLP Regressor models...
+2024-11-05 22:58:21,790 - INFO - 
+MLP R2 score for fold 1: 0.9465173
+2024-11-05 22:58:21,792 - INFO - Fold 1 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:58:23,590 - INFO - Fold 1 - LIME Explainer initialised.
+2024-11-05 22:58:25,643 - INFO - Fold 1 - LIME importances computed
+2024-11-05 22:58:25,643 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:58:25,785 - INFO - Fold 1 - PFI importances computed.
+2024-11-05 22:58:26,171 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:58:28,396 - INFO - 
+MLP R2 score for fold 2: 0.9443854
+2024-11-05 22:58:28,398 - INFO - Fold 2 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:58:30,206 - INFO - Fold 2 - LIME Explainer initialised.
+2024-11-05 22:58:32,272 - INFO - Fold 2 - LIME importances computed
+2024-11-05 22:58:32,274 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:58:32,396 - INFO - Fold 2 - PFI importances computed.
+2024-11-05 22:58:32,785 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:58:35,391 - INFO - 
+MLP R2 score for fold 3: 0.9621741
+2024-11-05 22:58:35,393 - INFO - Fold 3 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:58:37,197 - INFO - Fold 3 - LIME Explainer initialised.
+2024-11-05 22:58:39,335 - INFO - Fold 3 - LIME importances computed
+2024-11-05 22:58:39,335 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:58:39,465 - INFO - Fold 3 - PFI importances computed.
+2024-11-05 22:58:39,857 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:58:39,879 - INFO - Instance 1000: Completed MLP training.
+2024-11-05 22:58:39,879 - INFO -   Processing Run 10 for Instance 1000
+2024-11-05 22:58:39,883 - INFO - Instance 1000: Starting Linear Regression training.
+2024-11-05 22:58:39,884 - INFO - 
+Computing Linear Regression Models with SHAP...
+2024-11-05 22:58:39,887 - INFO - 
+LR R2 score for fold 1: 0.6738946
+2024-11-05 22:58:39,888 - INFO - Fold 1 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:58:40,700 - INFO - Fold 1 - LIME Explainer initialised.
+2024-11-05 22:58:41,959 - INFO - Fold 1 - LIME importances computed
+2024-11-05 22:58:41,959 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:58:42,005 - INFO - Fold 1 - PFI importances computed
+2024-11-05 22:58:42,395 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:58:42,413 - INFO - 
+LR R2 score for fold 2: 0.6894900
+2024-11-05 22:58:42,415 - INFO - Fold 2 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:58:43,222 - INFO - Fold 2 - LIME Explainer initialised.
+2024-11-05 22:58:44,465 - INFO - Fold 2 - LIME importances computed
+2024-11-05 22:58:44,465 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:58:44,513 - INFO - Fold 2 - PFI importances computed
+2024-11-05 22:58:44,934 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:58:44,958 - INFO - 
+LR R2 score for fold 3: 0.6436593
+2024-11-05 22:58:44,959 - INFO - Fold 3 - SHAP Explainer initialised with feature names: ['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5', 'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10', 'Variable11', 'Variable12', 'Variable13', 'Variable14']
+2024-11-05 22:58:45,820 - INFO - Fold 3 - LIME Explainer initialised.
+2024-11-05 22:58:47,008 - INFO - Fold 3 - LIME importances computed
+2024-11-05 22:58:47,009 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:58:47,058 - INFO - Fold 3 - PFI importances computed
+2024-11-05 22:58:47,481 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:58:47,502 - INFO - Instance 1000: Completed Linear Regression training.
+2024-11-05 22:58:47,502 - INFO - Instance 1000: Starting Random Forest training.
+2024-11-05 22:58:47,503 - INFO - 
+Computing Random Forest models...
+2024-11-05 22:58:47,545 - INFO - 
+RF R2 score for fold 1: 0.9852293
+2024-11-05 22:58:51,185 - INFO - Fold 1 - LIME Explainer initialized.
+2024-11-05 22:58:53,790 - INFO - Fold 1 - LIME importances computed: [-3.03371682e+00 -2.70195955e+00 -3.53213035e+00 -3.38980744e+00
+ -2.36598003e-02  1.38646300e-02  1.10351627e-03 -1.08721628e-02
+ -3.00509501e-02  8.89556180e-03 -1.18674247e-02  3.13986100e-02
+ -3.02313283e-03 -2.85630441e-02]
+2024-11-05 22:58:53,791 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:58:53,970 - INFO - Fold 1 - PFI importances computed.
+2024-11-05 22:58:54,353 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:58:54,408 - INFO - 
+RF R2 score for fold 2: 0.9790318
+2024-11-05 22:58:58,132 - INFO - Fold 2 - LIME Explainer initialized.
+2024-11-05 22:59:00,730 - INFO - Fold 2 - LIME importances computed: [-3.45949625e+00 -2.95893614e+00 -3.78678030e+00 -3.16202130e+00
+ -2.13209100e-02  9.08772973e-03 -7.77413582e-04 -9.38251415e-03
+ -2.33990062e-02  2.22051199e-03 -1.16669906e-02  1.76726599e-02
+ -6.81878442e-03 -3.29328697e-02]
+2024-11-05 22:59:00,731 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:59:00,909 - INFO - Fold 2 - PFI importances computed.
+2024-11-05 22:59:01,427 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:59:01,483 - INFO - 
+RF R2 score for fold 3: 0.9924231
+2024-11-05 22:59:05,155 - INFO - Fold 3 - LIME Explainer initialized.
+2024-11-05 22:59:07,717 - INFO - Fold 3 - LIME importances computed: [-3.03319079e+00 -2.76834462e+00 -3.49941342e+00 -3.51647643e+00
+ -2.59832368e-02  1.27347393e-02 -1.16877059e-03 -1.63150938e-02
+ -2.27091773e-02  4.49384368e-03 -1.57669815e-02  3.23222220e-02
+ -5.81527121e-03 -2.44745620e-02]
+2024-11-05 22:59:07,719 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:59:07,898 - INFO - Fold 3 - PFI importances computed.
+2024-11-05 22:59:08,282 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:59:08,298 - INFO - Average Cross-Validation R2 Random Forest: 0.9855614126428343
+2024-11-05 22:59:08,299 - INFO - Instance 1000: Completed Random Forest training.
+2024-11-05 22:59:08,300 - INFO - Instance 1000: Starting MLP training.
+2024-11-05 22:59:08,300 - INFO - 
+Computing MLP Regressor models...
+2024-11-05 22:59:10,766 - INFO - 
+MLP R2 score for fold 1: 0.9465173
+2024-11-05 22:59:10,768 - INFO - Fold 1 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:59:12,495 - INFO - Fold 1 - LIME Explainer initialised.
+2024-11-05 22:59:14,619 - INFO - Fold 1 - LIME importances computed
+2024-11-05 22:59:14,620 - INFO - Fold 1 - Computing permutation importance...
+2024-11-05 22:59:14,743 - INFO - Fold 1 - PFI importances computed.
+2024-11-05 22:59:15,140 - INFO - SHAP summary for 1, instance number 1000
+2024-11-05 22:59:17,328 - INFO - 
+MLP R2 score for fold 2: 0.9443854
+2024-11-05 22:59:17,329 - INFO - Fold 2 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:59:19,106 - INFO - Fold 2 - LIME Explainer initialised.
+2024-11-05 22:59:21,120 - INFO - Fold 2 - LIME importances computed
+2024-11-05 22:59:21,120 - INFO - Fold 2 - Computing permutation importance...
+2024-11-05 22:59:21,233 - INFO - Fold 2 - PFI importances computed.
+2024-11-05 22:59:21,615 - INFO - SHAP summary for 2, instance number 1000
+2024-11-05 22:59:24,201 - INFO - 
+MLP R2 score for fold 3: 0.9621741
+2024-11-05 22:59:24,203 - INFO - Fold 3 - SHAP Explainer initialised with feature names: Index(['Variable1', 'Variable2', 'Variable3', 'Variable4', 'Variable5',
+       'Variable6', 'Variable7', 'Variable8', 'Variable9', 'Variable10',
+       'Variable11', 'Variable12', 'Variable13', 'Variable14'],
+      dtype='object')
+2024-11-05 22:59:25,932 - INFO - Fold 3 - LIME Explainer initialised.
+2024-11-05 22:59:28,015 - INFO - Fold 3 - LIME importances computed
+2024-11-05 22:59:28,016 - INFO - Fold 3 - Computing permutation importance...
+2024-11-05 22:59:28,140 - INFO - Fold 3 - PFI importances computed.
+2024-11-05 22:59:28,526 - INFO - SHAP summary for 3, instance number 1000
+2024-11-05 22:59:28,548 - INFO - Instance 1000: Completed MLP training.
+2024-11-05 22:59:28,548 - INFO - Aggregating explanations for Instance: 1000
+2024-11-05 22:59:29,534 - INFO - Heatmap 'Model Performance with SHAP for ILS - Instance 1000 (deg2)' saved to 'ils-split\deg2\1000\heatmap\shap-median.png'
+2024-11-05 22:59:30,499 - INFO - Heatmap 'Model Performance with PFI for ILS - Instance 1000 (deg2)' saved to 'ils-split\deg2\1000\heatmap\pfi-median.png'
+2024-11-05 22:59:31,471 - INFO - Heatmap 'Model Performance with LIME for ILS - Instance 1000 (deg2)' saved to 'ils-split\deg2\1000\heatmap\lime-median.png'
+2024-11-05 22:59:31,472 - INFO - Aggregating and plotting heatmaps for Degree: deg2
+2024-11-05 22:59:32,438 - INFO - Aggregated SHAP heatmap for deg2 saved to ils-split\deg2\aggregated_heatmaps\shap_aggregated_heatmap.png.
+2024-11-05 22:59:33,405 - INFO - Normalized SHAP heatmap for deg2 saved to ils-split\deg2\aggregated_heatmaps\shap_normalized_heatmap.png.
+2024-11-05 22:59:34,583 - INFO - Aggregated PFI heatmap for deg2 saved to ils-split\deg2\aggregated_heatmaps\pfi_aggregated_heatmap.png.
+2024-11-05 22:59:35,529 - INFO - Normalized PFI heatmap for deg2 saved to ils-split\deg2\aggregated_heatmaps\pfi_normalized_heatmap.png.
+2024-11-05 22:59:36,508 - INFO - Aggregated LIME heatmap for deg2 saved to ils-split\deg2\aggregated_heatmaps\lime_aggregated_heatmap.png.
+2024-11-05 22:59:37,441 - INFO - Normalized LIME heatmap for deg2 saved to ils-split\deg2\aggregated_heatmaps\lime_normalized_heatmap.png.
+2024-11-05 22:59:37,446 - INFO - Aggregated metrics for deg2 saved to ils-split\deg2\aggregated_heatmaps\aggregated_metrics.csv.
+2024-11-05 22:59:37,666 - INFO - Model performance plot for deg2 saved to ils-split\deg2\aggregated_heatmaps\model_performance.png.
+2024-11-05 22:59:37,667 - INFO - R² scores for deg2 saved to ils-split\deg2\aggregated_heatmaps\r2_scores.csv.
+2024-11-05 22:59:37,668 - INFO - No data for Degree: deg10. Skipping aggregation.
+2024-11-05 22:59:37,668 - INFO - Completed all ILS runs and ML model trainings.
