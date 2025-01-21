@@ -59,7 +59,7 @@ This work is in association with paper submitted to EvoStar 2025's special joint
     python aggregate_sampled.py --base_dir ils-split/deg2 --instance_start 1000 --instance_end 1029 --run_file_pattern Run*-raw_metrics.csv --aggregate_by model_explainer --output_suffix ME
     ```
 
-#### d. Generate Visualizations
+#### d. Generate Visualisations
 1. **Boxplots**:
    - Use **`boxplots.py`** with the R² scores for:
      - SAMPLE: `src/eval/python/ils-split/deg2/aggregated_heatmaps/r2_scores_median.csv`
