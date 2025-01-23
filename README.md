@@ -63,7 +63,13 @@ This work is in association with paper submitted to EvoStar 2025's special joint
 1. **Boxplots**:
    - Use **`boxplots.py`** with the R² scores for:
      - SAMPLE: `src/eval/python/ils-split/deg2/aggregated_heatmaps/r2_scores_median.csv`
+       ```bash
+        python boxplots.py ils-split\deg2\aggregated_heatmaps\r2_scores_median.csv --threshold 0.94 --output deg2ils-230125.png --stats_output d2-ils-stats-230125.csv --figsize (40,20)
+       ```
      - ENUM: `src/eval/python/puboi/deg2/aggregated_heatmaps/r2_scores_median.csv`
+       ```bash
+        python boxplots.py puboi\deg2\aggregated_heatmaps\r2_scores_median.csv --threshold 0.94 --output deg2enum-230125.png --stats_output d2-enum-stats-230125.csv --figsize (40,20)
+       ```
 
 2. **Heatmaps**:
    - Plot the heatmaps for full model training using **`heatmaps.py`**:
