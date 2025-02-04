@@ -55,7 +55,7 @@ This work is in association with paper submitted to EvoStar 2025's special joint
 - After experiments finish, aggregate the data:
   - Use **`aggregate_sampled.py`** for both the enum and sample data:
     ```bash
-    python aggregate_sampled.py --base_dir puboi/deg2 --instance_start 1000 --instance_end 1029 --run_file_pattern raw_metrics.csv --aggregate_by model_explainer --output_suffix ME
+    python aggregate_full.py --base_dir puboi/deg2 --instance_start 1000 --instance_end 1029 --run_file_pattern raw_metrics.csv --aggregate_by model_explainer --output_suffix ME
     python aggregate_sampled.py --base_dir ils-split/deg2 --instance_start 1000 --instance_end 1029 --run_file_pattern Run*-raw_metrics.csv --aggregate_by model_explainer --output_suffix ME
     ```
 
